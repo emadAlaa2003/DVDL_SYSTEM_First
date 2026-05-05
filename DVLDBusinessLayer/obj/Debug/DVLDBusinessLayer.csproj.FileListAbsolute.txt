@@ -1,0 +1,9 @@
+E:\programming advices\c#\corse19\DVLDBusinessLayer\bin\Debug\DVLDBusinessLayer.dll
+E:\programming advices\c#\corse19\DVLDBusinessLayer\bin\Debug\DVLDBusinessLayer.pdb
+E:\programming advices\c#\corse19\DVLDBusinessLayer\bin\Debug\DVLDDataAccessLayer.dll
+E:\programming advices\c#\corse19\DVLDBusinessLayer\bin\Debug\DVLDDataAccessLayer.pdb
+E:\programming advices\c#\corse19\DVLDBusinessLayer\obj\Debug\DVLDBusinessLayer.csproj.AssemblyReference.cache
+E:\programming advices\c#\corse19\DVLDBusinessLayer\obj\Debug\DVLDBusinessLayer.csproj.CoreCompileInputs.cache
+E:\programming advices\c#\corse19\DVLDBusinessLayer\obj\Debug\DVLDBusi.7D6D57CA.Up2Date
+E:\programming advices\c#\corse19\DVLDBusinessLayer\obj\Debug\DVLDBusinessLayer.dll
+E:\programming advices\c#\corse19\DVLDBusinessLayer\obj\Debug\DVLDBusinessLayer.pdb

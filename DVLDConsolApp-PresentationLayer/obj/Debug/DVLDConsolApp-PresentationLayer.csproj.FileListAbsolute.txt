@@ -1,0 +1,12 @@
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\bin\Debug\DVLDConsolApp-PresentationLayer.exe.config
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\bin\Debug\DVLDConsolApp-PresentationLayer.exe
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\bin\Debug\DVLDConsolApp-PresentationLayer.pdb
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\bin\Debug\DVLDBusinessLayer.dll
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\bin\Debug\DVLDDataAccessLayer.dll
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\bin\Debug\DVLDBusinessLayer.pdb
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\bin\Debug\DVLDDataAccessLayer.pdb
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\obj\Debug\DVLDConsolApp-PresentationLayer.csproj.AssemblyReference.cache
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\obj\Debug\DVLDConsolApp-PresentationLayer.csproj.CoreCompileInputs.cache
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\obj\Debug\DVLDCons.4C6C8FB2.Up2Date
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\obj\Debug\DVLDConsolApp-PresentationLayer.exe
+E:\programming advices\c#\corse19\DVLDConsolApp-PresentationLayer\obj\Debug\DVLDConsolApp-PresentationLayer.pdb

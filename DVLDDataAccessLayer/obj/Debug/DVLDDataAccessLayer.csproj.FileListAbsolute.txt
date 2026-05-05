@@ -1,0 +1,6 @@
+E:\programming advices\c#\corse19\DVLDDataAccessLayer\bin\Debug\DVLDDataAccessLayer.dll
+E:\programming advices\c#\corse19\DVLDDataAccessLayer\bin\Debug\DVLDDataAccessLayer.pdb
+E:\programming advices\c#\corse19\DVLDDataAccessLayer\obj\Debug\DVLDDataAccessLayer.csproj.AssemblyReference.cache
+E:\programming advices\c#\corse19\DVLDDataAccessLayer\obj\Debug\DVLDDataAccessLayer.csproj.CoreCompileInputs.cache
+E:\programming advices\c#\corse19\DVLDDataAccessLayer\obj\Debug\DVLDDataAccessLayer.dll
+E:\programming advices\c#\corse19\DVLDDataAccessLayer\obj\Debug\DVLDDataAccessLayer.pdb
