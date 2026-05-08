@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DVDLWinForm_PresentationLayer.Login;
 
 namespace DVDLWinForm_PresentationLayer
 {
@@ -16,7 +17,7 @@ namespace DVDLWinForm_PresentationLayer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MinForm());
+            Application.Run(new frmLoginScrean());
         }
     }
 }

@@ -57,5 +57,10 @@ namespace DVDLWinForm_PresentationLayer.People
 
             }
         }
+
+        private void ctrlAdd_UpdatePerson1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

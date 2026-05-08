@@ -25,14 +25,14 @@ E:\programming advices\c#\corse19\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWi
 E:\programming advices\c#\corse19\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.User.ctrlUserDetiels.resources
 E:\programming advices\c#\corse19\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.User.frmUserDetiels.resources
 E:\programming advices\c#\corse19\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.User.frmChangePassword.resources
-E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\bin\Debug\DVDLWinForm-PresentationLayer.exe.config
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\bin\Debug\DVDLWinForm-PresentationLayer.exe
-E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\bin\Debug\DVDLWinForm-PresentationLayer.pdb
+E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\bin\Debug\DVDLWinForm-PresentationLayer.exe.config
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\bin\Debug\DVLDBusinessLayer.dll
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\bin\Debug\DVLDDataAccessLayer.dll
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\bin\Debug\DVLDBusinessLayer.pdb
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\bin\Debug\DVLDDataAccessLayer.pdb
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm-PresentationLayer.csproj.AssemblyReference.cache
+E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.Login.frmLoginScrean.resources
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.MinForm.resources
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.People.ctrlAdd_UpdatePerson.resources
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.People.ctrlPersonCardWithFilter.resources
@@ -52,3 +52,4 @@ E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLay
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinF.4D027214.Up2Date
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm-PresentationLayer.exe
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm-PresentationLayer.pdb
+E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\bin\Debug\DVDLWinForm-PresentationLayer.pdb

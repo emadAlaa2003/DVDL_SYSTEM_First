@@ -90,6 +90,7 @@
             this.ctrlAdd_UpdatePerson1.TabIndex = 0;
             this.ctrlAdd_UpdatePerson1.onSavedClick += new System.Action<int>(this.ctrlAdd_UpdatePerson1_onSavedClick);
             this.ctrlAdd_UpdatePerson1.onCloseClick += new System.Action<int>(this.ctrlAdd_UpdatePerson1_onCloseClick);
+            this.ctrlAdd_UpdatePerson1.Load += new System.EventHandler(this.ctrlAdd_UpdatePerson1_Load);
             // 
             // errorProvider1
             // 

@@ -58,8 +58,42 @@ namespace DVLDDataAccessLayer
                 if (reader.Read())
                 {
                     IsFound = true;
-                    ID = (int)reader["ID"];
+                    ID = (int)reader["UserID"];
                     UserName = (string)reader["UserName"];
+                    UserPassword = (string)reader["Password"];
+                    IsActive = Convert.ToBoolean((reader["IsActive"]));
+                }
+                else
+                {
+                    IsFound = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                IsFound = false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return IsFound;
+        }
+        public static bool GetUserInfoByUserName(ref int ID, ref int PersonID,  string UserName, ref string UserPassword, ref bool IsActive)
+        {
+            bool IsFound = false;
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
+            string query = "select * from Users Where UserName=@UserName";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@UserName", UserName);
+            try
+            {
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    IsFound = true;
+                    ID = (int)reader["UserID"];
+                    PersonID = (int)reader["PersonID"];
                     UserPassword = (string)reader["Password"];
                     IsActive = Convert.ToBoolean((reader["IsActive"]));
                 }
