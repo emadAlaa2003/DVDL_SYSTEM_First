@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DVDLWinForm_PresentationLayer.Applications;
 using DVDLWinForm_PresentationLayer.Login;
 using DVDLWinForm_PresentationLayer.People;
 using DVDLWinForm_PresentationLayer.User;
@@ -63,6 +64,12 @@ namespace DVDLWinForm_PresentationLayer
         {
             clsGloabelSettings.CurrentUser = null;
             Application.Restart();
+        }
+
+        private void manageApplicationTypesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmApplicationTypes frm = new frmApplicationTypes();
+            frm.ShowDialog();
         }
     }
 }

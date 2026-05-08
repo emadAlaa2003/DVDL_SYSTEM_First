@@ -42,9 +42,9 @@ namespace DVLDBusinessLayer
             this.ImagePath = "";
             Mode = enMode.AddNew;
         }
-        private clsPerson(int PersonID, ref string NationalNo, ref string FirstName, ref string SecondName
-                                    , ref string ThirdName, ref string LastName, ref DateTime DateOfBirth, ref byte Gendor
-                                   , ref string Address, ref string Phone, ref string Email, ref int NationalityCountryID, ref string ImagePath)
+        private clsPerson(int PersonID,  string NationalNo,  string FirstName,  string SecondName
+                                    ,  string ThirdName,  string LastName,  DateTime DateOfBirth,  byte Gendor
+                                   ,  string Address,  string Phone,  string Email,  int NationalityCountryID,  string ImagePath)
         {
             this.PersonID = PersonID;
             this.NationalNo = NationalNo;
@@ -109,9 +109,9 @@ namespace DVLDBusinessLayer
                                     , ref ThirdName, ref LastName, ref DateOfBirth, ref Gendor
                                    , ref Address, ref Phone, ref Email, ref NationalityCountryID, ref ImagePath))
             {
-                return new clsPerson(PersonID, ref NationalNo, ref FirstName, ref SecondName
-                                      , ref ThirdName, ref LastName, ref DateOfBirth, ref Gendor
-                                     , ref Address, ref Phone, ref Email, ref NationalityCountryID, ref ImagePath);
+                return new clsPerson(PersonID,  NationalNo,  FirstName,  SecondName
+                                      ,  ThirdName,  LastName,  DateOfBirth,  Gendor
+                                     ,  Address,  Phone,  Email,  NationalityCountryID,  ImagePath);
             }
             else
             {
@@ -132,9 +132,9 @@ namespace DVLDBusinessLayer
                                     , ref ThirdName, ref LastName, ref DateOfBirth, ref Gendor
                                    , ref Address, ref Phone, ref Email, ref NationalityCountryID, ref ImagePath))
             {
-                return new clsPerson(PersonID, ref NationalNo, ref FirstName, ref SecondName
-                                      , ref ThirdName, ref LastName, ref DateOfBirth, ref Gendor
-                                     , ref Address, ref Phone, ref Email, ref NationalityCountryID, ref ImagePath);
+                return new clsPerson(PersonID,  NationalNo,  FirstName,  SecondName
+                                      ,  ThirdName,  LastName,  DateOfBirth,  Gendor
+                                     ,  Address,  Phone,  Email,  NationalityCountryID,  ImagePath);
             }
             else
             {

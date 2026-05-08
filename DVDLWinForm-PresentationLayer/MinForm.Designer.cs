@@ -30,6 +30,11 @@
         {
             this.mstMainForm = new System.Windows.Forms.MenuStrip();
             this.TmsiApplication = new System.Windows.Forms.ToolStripMenuItem();
+            this.drivingLicensesServicesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageApplicationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.detainLicensesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageApplicationTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageTestTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TmsiPeople = new System.Windows.Forms.ToolStripMenuItem();
             this.TmsiDrivers = new System.Windows.Forms.ToolStripMenuItem();
             this.TmsiUsers = new System.Windows.Forms.ToolStripMenuItem();
@@ -64,11 +69,58 @@
             // 
             // TmsiApplication
             // 
+            this.TmsiApplication.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.drivingLicensesServicesToolStripMenuItem,
+            this.manageApplicationsToolStripMenuItem,
+            this.detainLicensesToolStripMenuItem,
+            this.manageApplicationTypesToolStripMenuItem,
+            this.manageTestTypesToolStripMenuItem});
             this.TmsiApplication.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TmsiApplication.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Applications_64;
             this.TmsiApplication.Name = "TmsiApplication";
             this.TmsiApplication.Size = new System.Drawing.Size(142, 63);
             this.TmsiApplication.Text = "Applicatiens";
+            // 
+            // drivingLicensesServicesToolStripMenuItem
+            // 
+            this.drivingLicensesServicesToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.drivingLicensesServicesToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.License_View_32;
+            this.drivingLicensesServicesToolStripMenuItem.Name = "drivingLicensesServicesToolStripMenuItem";
+            this.drivingLicensesServicesToolStripMenuItem.Size = new System.Drawing.Size(237, 36);
+            this.drivingLicensesServicesToolStripMenuItem.Text = "Driving Licenses Services";
+            // 
+            // manageApplicationsToolStripMenuItem
+            // 
+            this.manageApplicationsToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.manageApplicationsToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Manage_Applications_32;
+            this.manageApplicationsToolStripMenuItem.Name = "manageApplicationsToolStripMenuItem";
+            this.manageApplicationsToolStripMenuItem.Size = new System.Drawing.Size(237, 36);
+            this.manageApplicationsToolStripMenuItem.Text = "Manage Applications";
+            // 
+            // detainLicensesToolStripMenuItem
+            // 
+            this.detainLicensesToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.detainLicensesToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Detain_32;
+            this.detainLicensesToolStripMenuItem.Name = "detainLicensesToolStripMenuItem";
+            this.detainLicensesToolStripMenuItem.Size = new System.Drawing.Size(237, 36);
+            this.detainLicensesToolStripMenuItem.Text = "Detain Licenses";
+            // 
+            // manageApplicationTypesToolStripMenuItem
+            // 
+            this.manageApplicationTypesToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.manageApplicationTypesToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Application_Types_64;
+            this.manageApplicationTypesToolStripMenuItem.Name = "manageApplicationTypesToolStripMenuItem";
+            this.manageApplicationTypesToolStripMenuItem.Size = new System.Drawing.Size(237, 36);
+            this.manageApplicationTypesToolStripMenuItem.Text = "Manage Application Types";
+            this.manageApplicationTypesToolStripMenuItem.Click += new System.EventHandler(this.manageApplicationTypesToolStripMenuItem_Click);
+            // 
+            // manageTestTypesToolStripMenuItem
+            // 
+            this.manageTestTypesToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.manageTestTypesToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.TestType_32;
+            this.manageTestTypesToolStripMenuItem.Name = "manageTestTypesToolStripMenuItem";
+            this.manageTestTypesToolStripMenuItem.Size = new System.Drawing.Size(237, 36);
+            this.manageTestTypesToolStripMenuItem.Text = "Manage Test Types";
             // 
             // TmsiPeople
             // 
@@ -114,7 +166,7 @@
             this.currentUserInfoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentUserInfoToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.PersonDetails_32;
             this.currentUserInfoToolStripMenuItem.Name = "currentUserInfoToolStripMenuItem";
-            this.currentUserInfoToolStripMenuItem.Size = new System.Drawing.Size(199, 36);
+            this.currentUserInfoToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
             this.currentUserInfoToolStripMenuItem.Text = "Current User Info";
             this.currentUserInfoToolStripMenuItem.Click += new System.EventHandler(this.currentUserInfoToolStripMenuItem_Click);
             // 
@@ -123,21 +175,21 @@
             this.changePasswordToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changePasswordToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Password_32;
             this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(199, 36);
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
             this.changePasswordToolStripMenuItem.Text = "Change Password";
             this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(196, 6);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(182, 6);
             // 
             // singOutToolStripMenuItem
             // 
             this.singOutToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.singOutToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.sign_out_32__2;
             this.singOutToolStripMenuItem.Name = "singOutToolStripMenuItem";
-            this.singOutToolStripMenuItem.Size = new System.Drawing.Size(199, 36);
+            this.singOutToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
             this.singOutToolStripMenuItem.Text = "Sing out";
             this.singOutToolStripMenuItem.Click += new System.EventHandler(this.singOutToolStripMenuItem_Click);
             // 
@@ -188,6 +240,11 @@
         private System.Windows.Forms.ToolStripMenuItem changePasswordToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem singOutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem drivingLicensesServicesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem manageApplicationsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem detainLicensesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem manageApplicationTypesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem manageTestTypesToolStripMenuItem;
     }
 }
 

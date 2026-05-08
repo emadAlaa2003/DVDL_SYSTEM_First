@@ -319,6 +319,55 @@ namespace DVLDConsolApp_PresentationLayer
                 Console.WriteLine("No, Country Is not there.");
 
         }
+        static void TestApplFindById(int Appl)
+        {
+            clsApplactionType person = clsApplactionType.FindApplactionTypeById(Appl);
+            if (person == null)
+            {
+                Console.WriteLine("App not fond");
+            }
+            else
+            {
+                Console.WriteLine("App  fond");
+            }
+        }
+        static void TestListApplactions()
+        {
+
+            DataTable dataTable = clsApplactionType.GetAllApplactionTypes();
+
+            Console.WriteLine("Applaction Type Data:");
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                Console.WriteLine(row["ApplicationTypeID"].ToString() + " - " + row["ApplicationTypeTitle"].ToString() + " - " + row["ApplicationFees"].ToString() );
+            }
+
+        }
+        static void testUpdateApplactionType(int Appl)
+
+        {
+            clsApplactionType Country1 = clsApplactionType.FindApplactionTypeById(Appl);
+
+            if (Country1 != null)
+            {
+                //update whatever info you want
+                Country1.ApplicationTypeFees = 16;
+
+
+
+                if (Country1.Save())
+                {
+
+                    Console.WriteLine("ApplactionType updated Successfully ");
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("ApplactionType is you want to update is Not found!");
+            }
+        }
         static void Main(string[] args)
         {
             //TestFindById(1);
@@ -342,8 +391,11 @@ namespace DVLDConsolApp_PresentationLayer
             //TestUpdateUser(21);
             //TestListUsers();
             //TestDeleteUeser(1);
-            testIsUserExistByID(1);
-           Console.ReadKey();
+            //testIsUserExistByID(1);
+            //TestApplFindById(1);
+            TestListApplactions();
+            //testUpdateApplactionType(1);
+            Console.ReadKey();
         }
     }
 }

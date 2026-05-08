@@ -48,6 +48,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Applications\frmApplicationTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\frmApplicationTypes.Designer.cs">
+      <DependentUpon>frmApplicationTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\frmEditApplictionType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\frmEditApplictionType.Designer.cs">
+      <DependentUpon>frmEditApplictionType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login\frmLoginScrean.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +147,12 @@
     <Compile Include="User\frmUsersList.Designer.cs">
       <DependentUpon>frmUsersList.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Applications\frmApplicationTypes.resx">
+      <DependentUpon>frmApplicationTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\frmEditApplictionType.resx">
+      <DependentUpon>frmEditApplictionType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login\frmLoginScrean.resx">
       <DependentUpon>frmLoginScrean.cs</DependentUpon>
     </EmbeddedResource>
@@ -361,6 +379,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logo Final1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Application Types 512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\License View 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manage Applications 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Detain 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Application Types 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ApplicationType.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TestType 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ApplicationTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit 322.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
