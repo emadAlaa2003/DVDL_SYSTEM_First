@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsApplactionType.cs" />
+    <Compile Include="clsTestType.cs" />
     <Compile Include="Country.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -368,6 +368,56 @@ namespace DVLDConsolApp_PresentationLayer
                 Console.WriteLine("ApplactionType is you want to update is Not found!");
             }
         }
+
+        static void TestTestFindById(int Appl)
+        {
+            clsTestType person = clsTestType.FindTestTypeById(Appl);
+            if (person == null)
+            {
+                Console.WriteLine("Test not fond");
+            }
+            else
+            {
+                Console.WriteLine("Test  fond");
+            }
+        }
+        static void testUpdateTestType(int Appl)
+
+        {
+            clsTestType Country1 = clsTestType.FindTestTypeById(Appl);
+
+            if (Country1 != null)
+            {
+                //update whatever info you want
+                Country1.TestFees = 11;
+
+
+
+                if (Country1.Save())
+                {
+
+                    Console.WriteLine("testtype updated Successfully ");
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("ApplactionType is you want to update is Not found!");
+            }
+        }
+        static void TestListTestTypes()
+        {
+
+            DataTable dataTable = clsTestType.GetAllTestTypes();
+
+            Console.WriteLine("Applaction Type Data:");
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                Console.WriteLine(row["TestTypeID"].ToString() + " - " + row["TestTypeTitle"].ToString()+ row["TestTypeDescription"].ToString() + " - " + row["TestTypeFees"].ToString());
+            }
+
+        }
         static void Main(string[] args)
         {
             //TestFindById(1);
@@ -393,9 +443,12 @@ namespace DVLDConsolApp_PresentationLayer
             //TestDeleteUeser(1);
             //testIsUserExistByID(1);
             //TestApplFindById(1);
-            TestListApplactions();
+            //TestListApplactions();
             //testUpdateApplactionType(1);
-            Console.ReadKey();
+            //TestTestFindById(1);
+            //testUpdateTestType(1);
+            TestListTestTypes();
+           Console.ReadKey();
         }
     }
 }

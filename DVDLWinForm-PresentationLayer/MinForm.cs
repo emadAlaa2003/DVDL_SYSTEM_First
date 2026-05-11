@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using DVDLWinForm_PresentationLayer.Applications;
 using DVDLWinForm_PresentationLayer.Login;
 using DVDLWinForm_PresentationLayer.People;
+using DVDLWinForm_PresentationLayer.Test;
 using DVDLWinForm_PresentationLayer.User;
 
 namespace DVDLWinForm_PresentationLayer
@@ -69,6 +70,12 @@ namespace DVDLWinForm_PresentationLayer
         private void manageApplicationTypesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmApplicationTypes frm = new frmApplicationTypes();
+            frm.ShowDialog();
+        }
+
+        private void manageTestTypesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTestTypes frm= new frmTestTypes();
             frm.ShowDialog();
         }
     }

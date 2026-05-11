@@ -55,3 +55,4 @@ E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLay
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\bin\Debug\DVDLWinForm-PresentationLayer.pdb
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.Applications.frmApplicationTypes.resources
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.Applications.frmEditApplictionType.resources
+E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.Test.frmTestTypes.resources
