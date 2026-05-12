@@ -3,6 +3,24 @@
   "WorkspaceRootPath": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDConsolApp-PresentationLayer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EBF6E1D4-B9A1-4D04-9A26-25AAAD777EDC}|..\\DVLDDataAccessLayer\\DVLDDataAccessLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvlddataaccesslayer\\clsdatatesttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\login\\frmloginscrean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF6E1D4-B9A1-4D04-9A26-25AAAD777EDC}|..\\DVLDDataAccessLayer\\DVLDDataAccessLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvlddataaccesslayer\\clsdataapplactiontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\test\\frmupdatetesttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\test\\frmupdatetesttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\applications\\frmapplicationtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\test\\frmtesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -10,9 +28,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\applications\\frmapplicationtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\applications\\frmapplicationtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,53 +53,117 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmTestTypes.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs",
-              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs",
-              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAIA3wCUAAAACAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "clsDataApplactionTypes.cs",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\clsDataApplactionTypes.cs",
+              "RelativeDocumentMoniker": "..\\DVLDDataAccessLayer\\clsDataApplactionTypes.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\clsDataApplactionTypes.cs",
+              "RelativeToolTip": "..\\DVLDDataAccessLayer\\clsDataApplactionTypes.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T19:40:28.099Z",
+              "WhenOpened": "2026-05-12T15:19:40.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmLoginScrean.cs",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Login\\frmLoginScrean.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\Login\\frmLoginScrean.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Login\\frmLoginScrean.cs",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\Login\\frmLoginScrean.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T15:17:21.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsDataTestType.cs",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\clsDataTestType.cs",
+              "RelativeDocumentMoniker": "..\\DVLDDataAccessLayer\\clsDataTestType.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\clsDataTestType.cs",
+              "RelativeToolTip": "..\\DVLDDataAccessLayer\\clsDataTestType.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAWwDIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T15:17:21.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmUpdateTestType.cs",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Test\\frmUpdateTestType.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\Test\\frmUpdateTestType.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Test\\frmUpdateTestType.cs",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\Test\\frmUpdateTestType.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T15:16:11.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmUpdateTestType.cs [Design]",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Test\\frmUpdateTestType.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\Test\\frmUpdateTestType.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Test\\frmUpdateTestType.cs [Design]",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\Test\\frmUpdateTestType.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T15:16:08.345Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmApplicationTypes.cs",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAD4vycAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T15:13:58.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmTestTypes.cs",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAvwDAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T15:13:47.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "frmTestTypes.cs [Design]",
               "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs",
               "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs",
               "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs [Design]",
               "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\Test\\frmTestTypes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T19:32:21.811Z",
+              "WhenOpened": "2026-05-12T15:11:20.126Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "frmApplicationTypes.cs [Design]",
               "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs",
               "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs",
               "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs [Design]",
               "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T19:35:20.141Z",
+              "WhenOpened": "2026-05-12T15:11:11.613Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmApplicationTypes.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs",
-              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs",
-              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\Applications\\frmApplicationTypes.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAawCIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T19:40:50.903Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvApplicationTypes = new System.Windows.Forms.DataGridView();
             this.ApplicationTypeID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ApplicationTypeTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ApplicationFees = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.editApplictionTypeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblHedear = new System.Windows.Forms.Label();
             this.lblNumberOfRecord = new System.Windows.Forms.Label();
             this.lblRecodTitel = new System.Windows.Forms.Label();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.btnClose = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.editApplictionTypeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvApplicationTypes)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -55,14 +55,14 @@
             this.dgvApplicationTypes.AllowUserToAddRows = false;
             this.dgvApplicationTypes.AllowUserToDeleteRows = false;
             this.dgvApplicationTypes.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvApplicationTypes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvApplicationTypes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvApplicationTypes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvApplicationTypes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ApplicationTypeID,
@@ -73,22 +73,22 @@
             this.dgvApplicationTypes.Location = new System.Drawing.Point(26, 201);
             this.dgvApplicationTypes.Name = "dgvApplicationTypes";
             this.dgvApplicationTypes.ReadOnly = true;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvApplicationTypes.RowHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvApplicationTypes.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvApplicationTypes.Size = new System.Drawing.Size(431, 249);
             this.dgvApplicationTypes.TabIndex = 0;
             // 
             // ApplicationTypeID
             // 
             this.ApplicationTypeID.DataPropertyName = "ApplicationTypeID";
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ApplicationTypeID.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ApplicationTypeID.DefaultCellStyle = dataGridViewCellStyle2;
             this.ApplicationTypeID.HeaderText = "ID";
             this.ApplicationTypeID.Name = "ApplicationTypeID";
             this.ApplicationTypeID.ReadOnly = true;
@@ -98,8 +98,8 @@
             // 
             this.ApplicationTypeTitle.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.ApplicationTypeTitle.DataPropertyName = "ApplicationTypeTitle";
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ApplicationTypeTitle.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ApplicationTypeTitle.DefaultCellStyle = dataGridViewCellStyle3;
             this.ApplicationTypeTitle.FillWeight = 150F;
             this.ApplicationTypeTitle.HeaderText = "Tile";
             this.ApplicationTypeTitle.Name = "ApplicationTypeTitle";
@@ -109,11 +109,27 @@
             // ApplicationFees
             // 
             this.ApplicationFees.DataPropertyName = "ApplicationFees";
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ApplicationFees.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ApplicationFees.DefaultCellStyle = dataGridViewCellStyle4;
             this.ApplicationFees.HeaderText = "Fees";
             this.ApplicationFees.Name = "ApplicationFees";
             this.ApplicationFees.ReadOnly = true;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.editApplictionTypeToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(184, 48);
+            // 
+            // editApplictionTypeToolStripMenuItem
+            // 
+            this.editApplictionTypeToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.editApplictionTypeToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.edit_322;
+            this.editApplictionTypeToolStripMenuItem.Name = "editApplictionTypeToolStripMenuItem";
+            this.editApplictionTypeToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.editApplictionTypeToolStripMenuItem.Text = "Edit Appliction Type";
+            this.editApplictionTypeToolStripMenuItem.Click += new System.EventHandler(this.editApplictionTypeToolStripMenuItem_Click);
             // 
             // lblHedear
             // 
@@ -146,13 +162,6 @@
             this.lblRecodTitel.TabIndex = 8;
             this.lblRecodTitel.Text = "#Records:";
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.editApplictionTypeToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(178, 26);
-            // 
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -175,15 +184,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // editApplictionTypeToolStripMenuItem
-            // 
-            this.editApplictionTypeToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.editApplictionTypeToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.edit_322;
-            this.editApplictionTypeToolStripMenuItem.Name = "editApplictionTypeToolStripMenuItem";
-            this.editApplictionTypeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.editApplictionTypeToolStripMenuItem.Text = "EditApplictionType";
-            this.editApplictionTypeToolStripMenuItem.Click += new System.EventHandler(this.editApplictionTypeToolStripMenuItem_Click);
             // 
             // frmApplicationTypes
             // 

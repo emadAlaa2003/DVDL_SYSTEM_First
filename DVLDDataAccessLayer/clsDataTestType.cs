@@ -11,7 +11,7 @@ namespace DVLDDataAccessLayer
 {
     public class clsDataTestType
     {
-       public static bool FindTestTypeById(int testID,ref string TestTitel,ref string TestDescription,ref int Fees)
+       public static bool FindTestTypeById(int testID,ref string TestTitel,ref string TestDescription,ref decimal Fees)
         {
             bool IsFound = false;
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
@@ -27,7 +27,7 @@ namespace DVLDDataAccessLayer
                     IsFound = true;
                     TestTitel = (string)reader["TestTypeTitle"];
                     TestDescription = (string)reader["TestTypeDescription"];
-                    Fees = (int)reader["TestFees"];
+                    Fees = (decimal)reader["TestTypeFees"];
                 }
 
             }
@@ -39,7 +39,7 @@ namespace DVLDDataAccessLayer
             }
             return IsFound;
         }
-       public static bool UpdateTestType(int testID, string TestTitel, string TestDescription, int Fees)
+       public static bool UpdateTestType(int testID, string TestTitel, string TestDescription, decimal Fees)
         {
             int rowsAffected = -1;
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);

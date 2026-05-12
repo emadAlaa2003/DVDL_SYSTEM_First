@@ -13,9 +13,9 @@ namespace DVLDBusinessLayer
         public int TestTypeID { get; set; }
         public string TestTypeTitle { get; set; }
         public string TestTypeDescription { get; set; }
-        public int TestFees { get; set; }
+        public decimal TestFees { get; set; }
 
-        private clsTestType(int TestTypeID, string TestTypeTitle, string TestTypeDescription, int TestFees)
+        private clsTestType(int TestTypeID, string TestTypeTitle, string TestTypeDescription, decimal TestFees)
         {
             this.TestTypeID = TestTypeID;
             this.TestTypeTitle = TestTypeTitle;
@@ -30,7 +30,7 @@ namespace DVLDBusinessLayer
         {
             string TestTypeTitle = "";
             string TestTypeDescription = "";
-            int TestFees = 0;
+            decimal TestFees = 0;
             if (clsDataTestType.FindTestTypeById(TestTypeID, ref TestTypeTitle, ref TestTypeDescription, ref TestFees))
             {
                 return new clsTestType(TestTypeID, TestTypeTitle, TestTypeDescription, TestFees);

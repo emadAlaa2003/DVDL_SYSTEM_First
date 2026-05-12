@@ -7,13 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DVDLWinForm_PresentationLayer.Applications;
 using DVLDBusinessLayer;
 
 namespace DVDLWinForm_PresentationLayer.Test
 {
     public partial class frmTestTypes : Form
     {
-        public void _RefrchApplicationTypesList()
+        public void _RefrchTestTypesList()
         {
             DataTable dt = clsTestType.GetAllTestTypes();
             dgvTestTypes.AutoGenerateColumns = false;
@@ -27,7 +28,7 @@ namespace DVDLWinForm_PresentationLayer.Test
 
         private void frmTestTypes_Load(object sender, EventArgs e)
         {
-            _RefrchApplicationTypesList();
+            _RefrchTestTypesList();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -39,6 +40,13 @@ namespace DVDLWinForm_PresentationLayer.Test
         private void lblHedear_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void editApplictionTypeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmUpdateTestType frm = new frmUpdateTestType((int)dgvTestTypes.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
+            _RefrchTestTypesList();
         }
     }
 }

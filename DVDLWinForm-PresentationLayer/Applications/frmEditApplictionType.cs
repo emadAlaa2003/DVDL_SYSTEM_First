@@ -47,5 +47,7 @@ namespace DVDLWinForm_PresentationLayer.Applications
         {
             this.Close();
         }
+
+ 
     }
 }

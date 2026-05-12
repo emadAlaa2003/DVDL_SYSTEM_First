@@ -30,22 +30,22 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvTestTypes = new System.Windows.Forms.DataGridView();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.lblNumberOfRecord = new System.Windows.Forms.Label();
-            this.lblRecodTitel = new System.Windows.Forms.Label();
-            this.lblHedear = new System.Windows.Forms.Label();
-            this.editApplictionTypeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ApplicationTypeID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ApplicationTypeTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TestTypeDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ApplicationFees = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.editApplictionTypeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblNumberOfRecord = new System.Windows.Forms.Label();
+            this.lblRecodTitel = new System.Windows.Forms.Label();
+            this.lblHedear = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTestTypes)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -75,23 +75,71 @@
             this.dgvTestTypes.Location = new System.Drawing.Point(29, 210);
             this.dgvTestTypes.Name = "dgvTestTypes";
             this.dgvTestTypes.ReadOnly = true;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTestTypes.RowHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTestTypes.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvTestTypes.Size = new System.Drawing.Size(597, 249);
             this.dgvTestTypes.TabIndex = 22;
+            // 
+            // ApplicationTypeID
+            // 
+            this.ApplicationTypeID.DataPropertyName = "TestTypeID";
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ApplicationTypeID.DefaultCellStyle = dataGridViewCellStyle2;
+            this.ApplicationTypeID.HeaderText = "ID";
+            this.ApplicationTypeID.Name = "ApplicationTypeID";
+            this.ApplicationTypeID.ReadOnly = true;
+            this.ApplicationTypeID.Width = 46;
+            // 
+            // ApplicationTypeTitle
+            // 
+            this.ApplicationTypeTitle.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.ApplicationTypeTitle.DataPropertyName = "TestTypeTitle";
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ApplicationTypeTitle.DefaultCellStyle = dataGridViewCellStyle3;
+            this.ApplicationTypeTitle.FillWeight = 150F;
+            this.ApplicationTypeTitle.HeaderText = "Tile";
+            this.ApplicationTypeTitle.Name = "ApplicationTypeTitle";
+            this.ApplicationTypeTitle.ReadOnly = true;
+            this.ApplicationTypeTitle.Width = 53;
+            // 
+            // TestTypeDescription
+            // 
+            this.TestTypeDescription.DataPropertyName = "TestTypeDescription";
+            this.TestTypeDescription.HeaderText = "Description";
+            this.TestTypeDescription.Name = "TestTypeDescription";
+            this.TestTypeDescription.ReadOnly = true;
+            this.TestTypeDescription.Width = 250;
+            // 
+            // ApplicationFees
+            // 
+            this.ApplicationFees.DataPropertyName = "TestTypeFees";
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ApplicationFees.DefaultCellStyle = dataGridViewCellStyle4;
+            this.ApplicationFees.HeaderText = "Fees";
+            this.ApplicationFees.Name = "ApplicationFees";
+            this.ApplicationFees.ReadOnly = true;
             // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.editApplictionTypeToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(178, 26);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 48);
+            // 
+            // editApplictionTypeToolStripMenuItem
+            // 
+            this.editApplictionTypeToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.editApplictionTypeToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.edit_322;
+            this.editApplictionTypeToolStripMenuItem.Name = "editApplictionTypeToolStripMenuItem";
+            this.editApplictionTypeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editApplictionTypeToolStripMenuItem.Text = "Edit Test Type";
+            this.editApplictionTypeToolStripMenuItem.Click += new System.EventHandler(this.editApplictionTypeToolStripMenuItem_Click);
             // 
             // lblNumberOfRecord
             // 
@@ -125,14 +173,6 @@
             this.lblHedear.Text = "Mange Test Types";
             this.lblHedear.Click += new System.EventHandler(this.lblHedear_Click);
             // 
-            // editApplictionTypeToolStripMenuItem
-            // 
-            this.editApplictionTypeToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.editApplictionTypeToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.edit_322;
-            this.editApplictionTypeToolStripMenuItem.Name = "editApplictionTypeToolStripMenuItem";
-            this.editApplictionTypeToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
-            this.editApplictionTypeToolStripMenuItem.Text = "EditApplictionType";
-            // 
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -155,45 +195,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
-            // 
-            // ApplicationTypeID
-            // 
-            this.ApplicationTypeID.DataPropertyName = "TestTypeID";
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ApplicationTypeID.DefaultCellStyle = dataGridViewCellStyle5;
-            this.ApplicationTypeID.HeaderText = "ID";
-            this.ApplicationTypeID.Name = "ApplicationTypeID";
-            this.ApplicationTypeID.ReadOnly = true;
-            this.ApplicationTypeID.Width = 46;
-            // 
-            // ApplicationTypeTitle
-            // 
-            this.ApplicationTypeTitle.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.ApplicationTypeTitle.DataPropertyName = "TestTypeTitle";
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ApplicationTypeTitle.DefaultCellStyle = dataGridViewCellStyle11;
-            this.ApplicationTypeTitle.FillWeight = 150F;
-            this.ApplicationTypeTitle.HeaderText = "Tile";
-            this.ApplicationTypeTitle.Name = "ApplicationTypeTitle";
-            this.ApplicationTypeTitle.ReadOnly = true;
-            this.ApplicationTypeTitle.Width = 53;
-            // 
-            // TestTypeDescription
-            // 
-            this.TestTypeDescription.DataPropertyName = "TestTypeDescription";
-            this.TestTypeDescription.HeaderText = "Description";
-            this.TestTypeDescription.Name = "TestTypeDescription";
-            this.TestTypeDescription.ReadOnly = true;
-            this.TestTypeDescription.Width = 250;
-            // 
-            // ApplicationFees
-            // 
-            this.ApplicationFees.DataPropertyName = "TestTypeFees";
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ApplicationFees.DefaultCellStyle = dataGridViewCellStyle12;
-            this.ApplicationFees.HeaderText = "Fees";
-            this.ApplicationFees.Name = "ApplicationFees";
-            this.ApplicationFees.ReadOnly = true;
             // 
             // frmTestTypes
             // 
