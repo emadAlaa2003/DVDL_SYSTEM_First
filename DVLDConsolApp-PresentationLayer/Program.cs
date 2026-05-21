@@ -418,6 +418,72 @@ namespace DVLDConsolApp_PresentationLayer
             }
 
         }
+        static void TestApplicationFindById(int Appl)
+        {
+            clsApplication person = clsApplication.FindApplicationById(Appl);
+            if (person == null)
+            {
+                Console.WriteLine("Appp not fond");
+            }
+            else
+            {
+                Console.WriteLine("Appp  fond");
+            }
+        }
+
+        static void TestAddNewApp()
+        {
+            clsApplication User = new clsApplication();
+            User.ApplicantPersonID = 1;
+            User.ApplicationStatus = 0;
+            User.ApplicationTypeID = 1;
+            User.PaidFees = 30;
+            User.CreatedByUserID = 1;
+
+            if (User.Save())
+            {
+
+                Console.WriteLine("App Added Successfully with id=" + User.applicationId);
+            }
+        }
+        static void TestUpdateApp(int AppId)
+        {
+            clsApplication User = clsApplication.FindApplicationById(AppId);
+            User.ApplicantPersonID = 1;
+            User.ApplicationStatus =1;
+            User.ApplicationTypeID = 1;
+            User.PaidFees = 30;
+            User.CreatedByUserID = 1;
+
+            if (User.Save())
+            {
+
+                Console.WriteLine("App Update Successfully with id=" + User.applicationId);
+            }
+        }
+        static void TestDeleteAPP(int APPID)
+        {
+
+            if (clsApplication.DeleteApplication(APPID))
+            {
+                Console.WriteLine("App Deleted Successfull");
+            }
+        }
+
+        static void TestListApplications()
+        {
+
+            DataTable dataTable = clsApplication.GetAllApplications();
+
+            Console.WriteLine("Applactions  Data:");
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                Console.WriteLine(row["applicationId"].ToString() + " - " + row["ApplicantPersonID"].ToString() + row["ApplicationDate"].ToString() + " - " + row["ApplicationTypeID"].ToString()
+                    + " - " + row["ApplicationStatus"].ToString() + " - " + row["LastStatusDate"].ToString() + " - " + row["PaidFees"].ToString() + " - " + row["CreatedByUserID"].ToString());
+            }
+
+        }
         static void Main(string[] args)
         {
             //TestFindById(1);
@@ -447,7 +513,12 @@ namespace DVLDConsolApp_PresentationLayer
             //testUpdateApplactionType(1);
             //TestTestFindById(1);
             //testUpdateTestType(1);
-            TestListTestTypes();
+            //TestListTestTypes();
+            //TestApplicationFindById(3);
+            //TestAddNewApp();
+            //TestUpdateApp(70);
+            //TestDeleteAPP(70);
+            TestListApplications();
            Console.ReadKey();
         }
     }
