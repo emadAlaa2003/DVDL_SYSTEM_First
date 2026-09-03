@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DVDLWinForm_PresentationLayer.Applications;
+using DVDLWinForm_PresentationLayer.Drivers;
+using DVDLWinForm_PresentationLayer.localDrivingLicenseApplication;
 using DVDLWinForm_PresentationLayer.Login;
 using DVDLWinForm_PresentationLayer.People;
 using DVDLWinForm_PresentationLayer.Test;
@@ -76,6 +78,25 @@ namespace DVDLWinForm_PresentationLayer
         private void manageTestTypesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmTestTypes frm= new frmTestTypes();
+            frm.ShowDialog();
+        }
+
+        private void newDrivingLicensesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        
+            frmAddEditeLocalDrivingApp frm = new frmAddEditeLocalDrivingApp(-1);
+            frm.ShowDialog();
+        }
+
+        private void localDrivingLiceneseApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListLocalDrivingLicenseApplactions frm = new frmListLocalDrivingLicenseApplactions();
+            frm.ShowDialog();
+        }
+
+        private void TmsiDrivers_Click(object sender, EventArgs e)
+        {
+            frmListDrivers frm = new frmListDrivers();
             frm.ShowDialog();
         }
     }

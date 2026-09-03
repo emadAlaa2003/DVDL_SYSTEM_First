@@ -1,27 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDConsolApp-PresentationLayer\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{652E0FB0-EFFE-40FB-8708-766043939104}|DVLDConsolApp-PresentationLayer.csproj|E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDConsolApp-PresentationLayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652E0FB0-EFFE-40FB-8708-766043939104}|DVLDConsolApp-PresentationLayer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBF6E1D4-B9A1-4D04-9A26-25AAAD777EDC}|..\\DVLDDataAccessLayer\\DVLDDataAccessLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvlddataaccesslayer\\clsdataapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A9DB478-DD4A-430C-A76A-C29F51FD721C}|..\\DVLDBusinessLayer\\DVLDBusinessLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvldbusinesslayer\\clsapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBF6E1D4-B9A1-4D04-9A26-25AAAD777EDC}|..\\DVLDDataAccessLayer\\DVLDDataAccessLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvlddataaccesslayer\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A9DB478-DD4A-430C-A76A-C29F51FD721C}|..\\DVLDBusinessLayer\\DVLDBusinessLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvldbusinesslayer\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBF6E1D4-B9A1-4D04-9A26-25AAAD777EDC}|..\\DVLDDataAccessLayer\\DVLDDataAccessLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvlddataaccesslayer\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -29,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,89 +17,15 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDConsolApp-PresentationLayer\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDConsolApp-PresentationLayer\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAO0BAAAAAAAAAAAjwPMBAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T16:02:11.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PersonData.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\PersonData.cs",
-              "RelativeDocumentMoniker": "..\\DVLDDataAccessLayer\\PersonData.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\PersonData.cs",
-              "RelativeToolTip": "..\\DVLDDataAccessLayer\\PersonData.cs",
-              "ViewState": "AgIAAC0BAAAAAAAAAADwv9gAAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:19:20.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Person.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDBusinessLayer\\Person.cs",
-              "RelativeDocumentMoniker": "..\\DVLDBusinessLayer\\Person.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDBusinessLayer\\Person.cs",
-              "RelativeToolTip": "..\\DVLDBusinessLayer\\Person.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:51:41.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsDataApplications.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\clsDataApplications.cs",
-              "RelativeDocumentMoniker": "..\\DVLDDataAccessLayer\\clsDataApplications.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\clsDataApplications.cs",
-              "RelativeToolTip": "..\\DVLDDataAccessLayer\\clsDataApplications.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFMAAAB4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T14:52:13.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsApplication.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDBusinessLayer\\clsApplication.cs",
-              "RelativeDocumentMoniker": "..\\DVLDBusinessLayer\\clsApplication.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDBusinessLayer\\clsApplication.cs",
-              "RelativeToolTip": "..\\DVLDBusinessLayer\\clsApplication.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAawGUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:31:26.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\UserData.cs",
-              "RelativeDocumentMoniker": "..\\DVLDDataAccessLayer\\UserData.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\UserData.cs",
-              "RelativeToolTip": "..\\DVLDDataAccessLayer\\UserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:22:00.978Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

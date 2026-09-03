@@ -76,6 +76,10 @@ namespace DVLDBusinessLayer
                                     , this.ThirdName, this.LastName, this.DateOfBirth, this.Gendor
                                    , this.Address, this.Phone, this.Email, this.NationalityCountryID, this.ImagePath);
         }
+        public string getFullName()
+        {
+            return this.FirstName + " " + this.SecondName + " " + this.ThirdName + " " + this.LastName;
+        }
         public bool Save()
         {
             switch (Mode)

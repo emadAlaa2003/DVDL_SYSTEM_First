@@ -449,5 +449,10 @@ namespace DVDLWinForm_PresentationLayer.People
 
             llRemoveImage.Visible = false;
         }
+
+        private void dtbDateOfBirht_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

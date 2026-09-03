@@ -229,6 +229,7 @@
             this.dtbDateOfBirht.Name = "dtbDateOfBirht";
             this.dtbDateOfBirht.Size = new System.Drawing.Size(121, 20);
             this.dtbDateOfBirht.TabIndex = 8;
+            this.dtbDateOfBirht.ValueChanged += new System.EventHandler(this.dtbDateOfBirht_ValueChanged);
             this.dtbDateOfBirht.Validating += new System.ComponentModel.CancelEventHandler(this.dtbDateOfBirht_Validating);
             // 
             // rdbMale

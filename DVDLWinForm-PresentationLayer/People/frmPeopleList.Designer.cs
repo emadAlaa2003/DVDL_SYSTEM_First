@@ -32,9 +32,11 @@
             this.dgvAllPeople = new System.Windows.Forms.DataGridView();
             this.cmsPeopleList = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmiShowDetils = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmiAddNewPerson = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiEdit = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiDelete = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmiSendEmail = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiPhoneCall = new System.Windows.Forms.ToolStripMenuItem();
             this.lblTitel = new System.Windows.Forms.Label();
@@ -47,8 +49,8 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnAddnewPerson = new System.Windows.Forms.Button();
             this.ptbPeople = new System.Windows.Forms.PictureBox();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllPeople)).BeginInit();
             this.cmsPeopleList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbPeople)).BeginInit();
@@ -77,9 +79,11 @@
             this.tsmiDelete,
             this.toolStripMenuItem1,
             this.tsmiSendEmail,
-            this.tsmiPhoneCall});
+            this.tsmiPhoneCall,
+            this.toolStripMenuItem4,
+            this.toolStripMenuItem5});
             this.cmsPeopleList.Name = "cmsPeopleList";
-            this.cmsPeopleList.Size = new System.Drawing.Size(197, 266);
+            this.cmsPeopleList.Size = new System.Drawing.Size(197, 342);
             // 
             // tsmiShowDetils
             // 
@@ -90,6 +94,11 @@
             this.tsmiShowDetils.Size = new System.Drawing.Size(196, 38);
             this.tsmiShowDetils.Text = "Show Details";
             this.tsmiShowDetils.Click += new System.EventHandler(this.tsmiShowDetils_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(193, 6);
             // 
             // tsmiAddNewPerson
             // 
@@ -120,6 +129,11 @@
             this.tsmiDelete.Size = new System.Drawing.Size(196, 38);
             this.tsmiDelete.Text = "Delete";
             this.tsmiDelete.Click += new System.EventHandler(this.tsmiDelete_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(193, 6);
             // 
             // tsmiSendEmail
             // 
@@ -259,15 +273,17 @@
             this.ptbPeople.TabIndex = 1;
             this.ptbPeople.TabStop = false;
             // 
-            // toolStripMenuItem1
+            // toolStripMenuItem4
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(193, 6);
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(196, 38);
+            this.toolStripMenuItem4.Text = " ";
             // 
-            // toolStripMenuItem2
+            // toolStripMenuItem5
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(193, 6);
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(196, 38);
+            this.toolStripMenuItem5.Text = " ";
             // 
             // frmPeopleList
             // 
@@ -319,5 +335,7 @@
         private System.Windows.Forms.Button btnFindPerson;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
     }
 }

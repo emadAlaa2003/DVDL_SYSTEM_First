@@ -48,6 +48,41 @@ namespace DVLDDataAccessLayer
             }
             return IsFound;
         }
+        public static bool FindApplicationByPersonID(ref int ApplicationID, int ApplicantPersonID, ref DateTime ApplicationDate, ref int ApplicationTypeID
+                                , ref byte ApplicationStatus, ref DateTime LastStatusDate, ref decimal PaidFees, ref int CreatedByUserID)
+        {
+            bool IsFound = false;
+
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
+            string qure = "SELECT * FROM Applications where ApplicantPersonID=@ApplicantPersonID";
+            SqlCommand command = new SqlCommand(qure, connection);
+            command.Parameters.AddWithValue("@ApplicantPersonID", ApplicantPersonID);
+            try
+            {
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    IsFound = true;
+                    ApplicationID = (int)reader["ApplicationID"];
+                    ApplicationDate = (DateTime)reader["ApplicationDate"];
+                    ApplicationTypeID = (int)reader["ApplicationTypeID"];
+                    ApplicationStatus = (byte)reader["ApplicationStatus"];
+                    LastStatusDate = (DateTime)reader["LastStatusDate"];
+                    PaidFees = (decimal)reader["PaidFees"];
+                    CreatedByUserID = (int)reader["CreatedByUserID"];
+                }
+            }
+            catch (Exception ex)
+            {
+                IsFound = false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return IsFound;
+        }
         public static int AddApplication(int ApplicantPersonID, DateTime ApplicationDate, int ApplicationTypeID
                                 , byte ApplicationStatus, DateTime LastStatusDate, decimal PaidFees, int CreatedByUserID)
         {
@@ -151,7 +186,7 @@ namespace DVLDDataAccessLayer
             {
                 connection.Open();
                 SqlDataReader reader = command.ExecuteReader();
-                if(reader.HasRows)
+                if (reader.HasRows)
                 {
                     dt.Load(reader);
                 }
@@ -166,5 +201,32 @@ namespace DVLDDataAccessLayer
             }
             return dt;
         }
+    
+
+    public static bool ChangeStatues(int applicationId, byte newStatus, DateTime LastStatusDate)
+        {
+            int rowsAffected = -1;
+            SqlConnection Connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
+            string query = "UPDATE Applications SET ApplicationStatus=@ApplicationStatus, LastStatusDate=@LastStatusDate WHERE ApplicationID=@ApplicationID";
+            SqlCommand command = new SqlCommand(query, Connection);
+            command.Parameters.AddWithValue("@ApplicationID", applicationId);
+            command.Parameters.AddWithValue("@ApplicationStatus", newStatus);
+            command.Parameters.AddWithValue("@LastStatusDate", LastStatusDate);
+            try
+            {
+                Connection.Open();
+                rowsAffected = command.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                // Console.WriteLine("Error Message: " + ex.Message);
+                rowsAffected = -1;
+            }
+            finally
+            {
+                Connection.Close();
+            }
+            return rowsAffected > 0;
+        }
     }
-}
+    }

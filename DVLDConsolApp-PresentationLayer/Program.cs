@@ -116,6 +116,51 @@ namespace DVLDConsolApp_PresentationLayer
                 Console.WriteLine("Country [" + ID + "] Not found!");
             }
         }
+        static void GetLicenseClassesoByID(int ID)
+
+        {
+            clsLicenseClasses Country1 = clsLicenseClasses.Find(ID);
+
+            if (Country1 != null)
+            {
+                Console.WriteLine("Name: " + Country1.ClassName+" "+ Country1.Description+ ""+ Country1.DefaultValidityLength+" "+ Country1.ClassFees+" "+ Country1.MinimumAllowedAge);
+
+            }
+
+            else
+            {
+                Console.WriteLine("Country [" + ID + "] Not found!");
+            }
+        }
+        static void GetLicenseClassesoByName(string  ID)
+
+        {
+            clsLicenseClasses Country1 = clsLicenseClasses.Find(ID);
+
+            if (Country1 != null)
+            {
+                Console.WriteLine("Name: " + Country1.ClassName + " " + Country1.Description + "" + Country1.DefaultValidityLength + " " + Country1.ClassFees + " " + Country1.MinimumAllowedAge);
+
+            }
+
+            else
+            {
+                Console.WriteLine("Country [" + ID + "] Not found!");
+            }
+        }
+        static void ListLicenseClassesos()
+        {
+
+            DataTable dataTable = clsLicenseClasses.GetAllLicenseClasses();
+
+            Console.WriteLine("clsLicenseClasses Data:");
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                Console.WriteLine($"{row["LicenseClassID"]},  {row["ClassName"]} ");
+            }
+
+        }
         static void testAddNewCountry()
 
 
@@ -188,6 +233,7 @@ namespace DVLDConsolApp_PresentationLayer
             }
 
         }
+
         static void testDeleteCountry(int ID)
 
         {
@@ -484,6 +530,241 @@ namespace DVLDConsolApp_PresentationLayer
             }
 
         }
+        static void TestAddNewLocalApp()
+        {
+            clsLocalDrivingLicenseApplication User = new clsLocalDrivingLicenseApplication();
+            User.ApplicantPersonID = 1;
+            User.ApplicationStatus = 0;
+            User.ApplicationTypeID = 1;
+            User.PaidFees = 30;
+            User.CreatedByUserID = 1;
+            User.LicenseClassID = 1;
+            
+            if (User.Save())
+            {
+
+                Console.WriteLine("App Added Successfully with id=" +User.LocalDrivingLicenseApplicationID +" - "+User.applicationId);
+            }
+        }
+        static void TestApplicationFindLoxallById(int Appl)
+        {
+            clsLocalDrivingLicenseApplication person = clsLocalDrivingLicenseApplication.Find(Appl);
+            if (person == null)
+            {
+                Console.WriteLine("Appp not fond");
+            }
+            else
+            {
+                Console.WriteLine("Appp  fond" + person.LocalDrivingLicenseApplicationID + " - " + person.applicationId + " - " + person.LicenseClassID);
+            }
+        }
+        static void TestUpdateLocalApp(int AppId)
+        {
+            clsLocalDrivingLicenseApplication User = clsLocalDrivingLicenseApplication.Find(AppId);
+            User.ApplicantPersonID = 1;
+            User.ApplicationStatus =1;
+            User.ApplicationTypeID = 1;
+            User.PaidFees = 30;
+            User.CreatedByUserID = 1;
+            User.LicenseClassID = 2;
+            if (User.Save())
+            {
+
+                Console.WriteLine("App Update Successfully with id=" + User.LocalDrivingLicenseApplicationID);
+            }
+        }
+        static void TestDeleteLocalAPP(int APPID)
+        {
+
+            if (clsLocalDrivingLicenseApplication.DeleteLocalDrivingLicenseApplication(APPID))
+            {
+                Console.WriteLine("App Deleted Successfull");
+            }
+        }
+        static void TestListLocalApplications()
+        {
+
+            DataTable dataTable = clsLocalDrivingLicenseApplication.GetAllLocalDrivingLicenseApplications();
+
+            Console.WriteLine("Applactions  Data:");
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                //Console.WriteLine(row["LocalDrivingLicenseApplicationID"].ToString() + " - " + row["applicationId"].ToString() + " - " + row["LicenseClassID"].ToString() + " - " + row["LicenseClassID"].ToString() + row["ApplicationDate"].ToString() + " - " + row["ApplicationTypeID"].ToString()
+                //    + " - " + row["ApplicationStatus"].ToString() + " - " + row["LastStatusDate"].ToString() + " - " + row["PaidFees"].ToString() + " - " + row["CreatedByUserID"].ToString());
+                Console.WriteLine(row["LocalDrivingLicenseApplicationID"].ToString() + " - " + row["applicationId"].ToString() + " - " + row["LicenseClassID"].ToString());
+            }
+
+        }
+        static void TestAppointmetFind(int AppontId)
+        {
+            clsTestAppointmont Appontment = clsTestAppointmont.Find(AppontId);
+           if(Appontment == null)
+            {
+                Console.WriteLine("not found");
+            }else
+
+                Console.WriteLine(AppontId+" found");
+
+        }
+        static void TestAddAppointment()
+        {
+            clsTestAppointmont app=new clsTestAppointmont();
+            app.TestTypeID = 1;
+            app.LocalDrivingLicenseApplicationID = 41;
+            app.AppointmentDate= DateTime.Now;
+            app.PaidFees = 10;
+            app.IsLocked = true;
+            app.CreatedByUserID = 1;
+            if (app.Save())
+            {
+                Console.WriteLine("save sucess " + app.appointmentID);
+            }
+            else
+                Console.WriteLine("not save");
+        }
+        static void TestUodateAppointmentTest(int AppontI) {
+            clsTestAppointmont app = clsTestAppointmont.Find(AppontI);
+            if (app != null) {
+                app.IsLocked = false;
+                if (app.Save())
+                {
+                    Console.WriteLine("Upate sucess");
+                }
+                else
+                {
+                    Console.WriteLine("erorr");
+                }
+            } else
+            { Console.WriteLine("erorr"); }
+        
+        }
+        static void TestListGetAllAppoitmonts()
+        {
+
+            DataTable dataTable = clsTestAppointmont.GetAllTestAppointmonts();
+
+            Console.WriteLine("Appointmonts  Data:");
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                //Console.WriteLine(row["LocalDrivingLicenseApplicationID"].ToString() + " - " + row["applicationId"].ToString() + " - " + row["LicenseClassID"].ToString() + " - " + row["LicenseClassID"].ToString() + row["ApplicationDate"].ToString() + " - " + row["ApplicationTypeID"].ToString()
+                //    + " - " + row["ApplicationStatus"].ToString() + " - " + row["LastStatusDate"].ToString() + " - " + row["PaidFees"].ToString() + " - " + row["CreatedByUserID"].ToString());
+                Console.WriteLine(row["TestAppointmentID"].ToString() + " - " + row["LocalDrivingLicenseApplicationID"].ToString() + " - " + row["IsLocked"].ToString());
+            }
+
+        }
+        static void TestListGetAllAppoitmonts(int appId)
+        {
+
+            DataTable dataTable = clsTestAppointmont.GetAllTestAppointmontsByLocalAppId(appId,1);
+
+            Console.WriteLine("Appointmonts  Data:");
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                //Console.WriteLine(row["LocalDrivingLicenseApplicationID"].ToString() + " - " + row["applicationId"].ToString() + " - " + row["LicenseClassID"].ToString() + " - " + row["LicenseClassID"].ToString() + row["ApplicationDate"].ToString() + " - " + row["ApplicationTypeID"].ToString()
+                //    + " - " + row["ApplicationStatus"].ToString() + " - " + row["LastStatusDate"].ToString() + " - " + row["PaidFees"].ToString() + " - " + row["CreatedByUserID"].ToString());
+                Console.WriteLine(row["TestAppointmentID"].ToString() + " - " + row["LocalDrivingLicenseApplicationID"].ToString() + " - " + row["IsLocked"].ToString());
+            }
+
+        }
+        static void TestTestFind(int AppontId)
+        {
+            clsTest Appontment = clsTest.Find(AppontId);
+            if (Appontment == null)
+            {
+                Console.WriteLine("not found");
+            }
+            else
+
+                Console.WriteLine(AppontId + " found");
+
+        }
+        static void TestAddTest()
+        {
+            clsTest app = new clsTest();
+            app.TestAppointmentID = 75;
+            app.Notes = "Test";
+            app.TestResult = true;
+            app.CreatedByUserID = 1;
+            if (app.Save())
+            {
+                Console.WriteLine("save sucess " + app.TestID);
+            }
+            else
+                Console.WriteLine("not save");
+        }
+        static void TestUodateTest(int AppontI)
+        {
+            clsTest app = clsTest.Find(AppontI);
+            if (app != null)
+            {
+                app.TestResult= false;
+                if (app.Save())
+                {
+                    Console.WriteLine("Upate sucess"+app.TestResult);
+                }
+                else
+                {
+                    Console.WriteLine("erorr");
+                }
+            }
+            else
+            { Console.WriteLine("erorr"); }
+
+        }
+        static void TestDeleteTest(int Tset)
+        {
+
+            if (clsTest.DeletTest(Tset))
+            {
+                Console.WriteLine("Person Deleted Successfull");
+            }
+        }
+        static void TestFindDriver()
+        {
+            clsDriver dr = clsDriver.Find(8);
+            if (dr != null)
+            {
+                Console.WriteLine(dr.DriverID.ToString());
+            }
+        }
+        static void TestGetAllDrivers()
+        {
+            DataTable dataTable = clsDriver.GetAllDrivers();
+
+            Console.WriteLine("Appointmonts  Data:");
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                //Console.WriteLine(row["LocalDrivingLicenseApplicationID"].ToString() + " - " + row["applicationId"].ToString() + " - " + row["LicenseClassID"].ToString() + " - " + row["LicenseClassID"].ToString() + row["ApplicationDate"].ToString() + " - " + row["ApplicationTypeID"].ToString()
+                //    + " - " + row["ApplicationStatus"].ToString() + " - " + row["LastStatusDate"].ToString() + " - " + row["PaidFees"].ToString() + " - " + row["CreatedByUserID"].ToString());
+                Console.WriteLine(row["DriverID"].ToString() + " - " + row["PersonID"].ToString() + " - " + row["CreatedDate"].ToString());
+            }
+        }
+        static void TestFindLicennes()
+        {
+            clsLicense lic = clsLicense.Find(10);
+            if(lic!= null)
+            {
+                Console.WriteLine(lic.LicenseID.ToString());
+
+            }
+        }
+        static void TestGetAlllicensses()
+        {
+            DataTable dataTable = clsLicense.GetAllLicenses();
+
+            Console.WriteLine("Appointmonts  Data:");
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                //Console.WriteLine(row["LocalDrivingLicenseApplicationID"].ToString() + " - " + row["applicationId"].ToString() + " - " + row["LicenseClassID"].ToString() + " - " + row["LicenseClassID"].ToString() + row["ApplicationDate"].ToString() + " - " + row["ApplicationTypeID"].ToString()
+                //    + " - " + row["ApplicationStatus"].ToString() + " - " + row["LastStatusDate"].ToString() + " - " + row["PaidFees"].ToString() + " - " + row["CreatedByUserID"].ToString());
+                Console.WriteLine(row["LicenseID"].ToString() + " - " + row["ApplicationID"].ToString() + " - " + row["IssueReason"].ToString());
+            }
+        }
         static void Main(string[] args)
         {
             //TestFindById(1);
@@ -518,8 +799,27 @@ namespace DVLDConsolApp_PresentationLayer
             //TestAddNewApp();
             //TestUpdateApp(70);
             //TestDeleteAPP(70);
-            TestListApplications();
-           Console.ReadKey();
+            //TestListApplications();
+            //TestApplicationFindLoxallById(30);
+            //TestAddNewLocalApp();
+            //TestUpdateLocalApp(37);
+            //TestDeleteLocalAPP(37);
+            //TestListLocalApplications();
+            //GetLicenseClassesoByName("Class 2 - Heavy Motorcycle License");
+            //ListLicenseClassesos();
+            //TestAppointmetFind(65);
+            //TestAddAppointment();
+            //TestUodateAppointmentTest(75);
+            //TestListGetAllAppoitmonts();
+            //TestListGetAllAppoitmonts(30);
+            //TestTestFind(35);
+            //TestAddTest();
+            //TestDeleteTest(36);
+            //TestFindDriver();
+            //TestGetAllDrivers();
+            //TestFindLicennes();
+            TestGetAlllicensses();
+         Console.ReadKey();
         }
     }
 }

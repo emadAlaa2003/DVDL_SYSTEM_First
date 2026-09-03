@@ -14,6 +14,7 @@ namespace DVLDBusinessLayer
         public enum enAppMode { Add = 0, Update = 1 };
 
         public enAppMode AppMode = enAppMode.Add;
+        public enum enApplicationSatus {New=1, Cancelled=2 ,Completed=3 };
 
         public int applicationId { set; get; }
         public int ApplicantPersonID { set; get; }
@@ -38,7 +39,7 @@ namespace DVLDBusinessLayer
             this.PaidFees = 0;
             this.CreatedByUserID = 0;
         }
-        private clsApplication(int applicationId, int applicantPersonID, DateTime ApplicationDate, int ApplicationTypeID, byte ApplicationStatus, decimal PaidFees, int CreatedByUserID)
+        protected clsApplication(int applicationId, int applicantPersonID, DateTime ApplicationDate, int ApplicationTypeID, byte ApplicationStatus, decimal PaidFees, int CreatedByUserID)
         {
             AppMode = enAppMode.Update;
             this.applicationId = applicationId;
@@ -60,6 +61,16 @@ namespace DVLDBusinessLayer
             }
             return null;
         }
+        public static clsApplication FindApplicationByPersonId(int PersonnId)
+        {
+            int applicationId = 0; DateTime ApplicationDate = DateTime.Now; int ApplicationTypeID = 0; byte ApplicationStatus = 0;
+            decimal PaidFees = 0; int CreatedByUserID = 0; DateTime LastStatusDate = DateTime.Now;
+            if (clsDataApplications.FindApplicationByPersonID(ref applicationId,  PersonnId, ref ApplicationDate, ref ApplicationTypeID, ref ApplicationStatus, ref LastStatusDate, ref PaidFees, ref CreatedByUserID))
+            {
+                return new clsApplication(applicationId, PersonnId, ApplicationDate, ApplicationTypeID, ApplicationStatus, PaidFees, CreatedByUserID);
+            }
+            return null;
+        }
         private bool _AddNewApplication()
         {
             this.applicationId = clsDataApplications.AddApplication(ApplicantPersonID, ApplicationDate, ApplicationTypeID
@@ -71,7 +82,7 @@ namespace DVLDBusinessLayer
             return clsDataApplications.UpdateApplication(applicationId, ApplicantPersonID, ApplicationDate, ApplicationTypeID
                                 , ApplicationStatus, LastStatusDate, PaidFees, CreatedByUserID);
         }
-        public bool Save()
+        public virtual bool Save()
         {
             switch (AppMode)
             {
@@ -98,6 +109,10 @@ namespace DVLDBusinessLayer
         public static DataTable GetAllApplications()
         {
             return clsDataApplications.GetAllApplications();
+        }
+        public static bool ChangeStatues(int applicationId, byte NewStatus)
+        {
+            return clsDataApplications.ChangeStatues(applicationId, NewStatus,DateTime.Now);
         }
     }
 }

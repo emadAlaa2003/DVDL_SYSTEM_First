@@ -31,8 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.tbcAddUpdateUser = new System.Windows.Forms.TabControl();
             this.tpPersonalInfo = new System.Windows.Forms.TabPage();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.ctrlPersonCardWithFilter1 = new DVDLWinForm_PresentationLayer.People.ctrlPersonCardWithFilter();
             this.tpLoginInfo = new System.Windows.Forms.TabPage();
             this.ckbIsActive = new System.Windows.Forms.CheckBox();
             this.txtConformPassword = new System.Windows.Forms.TextBox();
@@ -43,22 +41,24 @@
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblUserName = new System.Windows.Forms.Label();
+            this.lblTitel = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ptbNationalNo = new System.Windows.Forms.PictureBox();
             this.ptbName = new System.Windows.Forms.PictureBox();
-            this.lblTitel = new System.Windows.Forms.Label();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.ctrlPersonCardWithFilter1 = new DVDLWinForm_PresentationLayer.People.ctrlPersonCardWithFilter();
             this.tbcAddUpdateUser.SuspendLayout();
             this.tpPersonalInfo.SuspendLayout();
             this.tpLoginInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbNationalNo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbName)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // tbcAddUpdateUser
@@ -84,29 +84,6 @@
             this.tpPersonalInfo.Size = new System.Drawing.Size(889, 466);
             this.tpPersonalInfo.TabIndex = 0;
             this.tpPersonalInfo.Text = "Personal Info";
-            // 
-            // btnNext
-            // 
-            this.btnNext.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Next_32;
-            this.btnNext.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnNext.Location = new System.Drawing.Point(738, 419);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(114, 38);
-            this.btnNext.TabIndex = 1;
-            this.btnNext.Text = "Next";
-            this.btnNext.UseVisualStyleBackColor = true;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
-            // 
-            // ctrlPersonCardWithFilter1
-            // 
-            this.ctrlPersonCardWithFilter1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ctrlPersonCardWithFilter1.Location = new System.Drawing.Point(35, 41);
-            this.ctrlPersonCardWithFilter1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.ctrlPersonCardWithFilter1.Name = "ctrlPersonCardWithFilter1";
-            this.ctrlPersonCardWithFilter1.Size = new System.Drawing.Size(817, 361);
-            this.ctrlPersonCardWithFilter1.TabIndex = 0;
-            this.ctrlPersonCardWithFilter1.onFindClick += new System.Action<int>(this.ctrlPersonCardWithFilter1_onFindClick);
-            this.ctrlPersonCardWithFilter1.Load += new System.EventHandler(this.ctrlPersonCardWithFilter1_Load);
             // 
             // tpLoginInfo
             // 
@@ -220,6 +197,59 @@
             this.lblUserName.TabIndex = 32;
             this.lblUserName.Text = "User Name : ";
             // 
+            // lblTitel
+            // 
+            this.lblTitel.AutoSize = true;
+            this.lblTitel.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitel.ForeColor = System.Drawing.Color.Red;
+            this.lblTitel.Location = new System.Drawing.Point(374, 23);
+            this.lblTitel.Name = "lblTitel";
+            this.lblTitel.Size = new System.Drawing.Size(220, 35);
+            this.lblTitel.TabIndex = 1;
+            this.lblTitel.Text = "Add New User";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Save_32;
+            this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSave.Location = new System.Drawing.Point(822, 603);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(98, 34);
+            this.btnSave.TabIndex = 16;
+            this.btnSave.Text = " Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Close_32;
+            this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClose.Location = new System.Drawing.Point(693, 603);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(105, 34);
+            this.btnClose.TabIndex = 15;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnNext
+            // 
+            this.btnNext.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Next_32;
+            this.btnNext.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnNext.Location = new System.Drawing.Point(738, 419);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(114, 38);
+            this.btnNext.TabIndex = 1;
+            this.btnNext.Text = "Next";
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Number_32;
@@ -260,46 +290,16 @@
             this.ptbName.TabIndex = 36;
             this.ptbName.TabStop = false;
             // 
-            // lblTitel
+            // ctrlPersonCardWithFilter1
             // 
-            this.lblTitel.AutoSize = true;
-            this.lblTitel.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitel.ForeColor = System.Drawing.Color.Red;
-            this.lblTitel.Location = new System.Drawing.Point(374, 23);
-            this.lblTitel.Name = "lblTitel";
-            this.lblTitel.Size = new System.Drawing.Size(220, 35);
-            this.lblTitel.TabIndex = 1;
-            this.lblTitel.Text = "Add New User";
-            // 
-            // btnSave
-            // 
-            this.btnSave.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Save_32;
-            this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(822, 603);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(98, 34);
-            this.btnSave.TabIndex = 16;
-            this.btnSave.Text = " Save";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // btnClose
-            // 
-            this.btnClose.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Close_32;
-            this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClose.Location = new System.Drawing.Point(693, 603);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(105, 34);
-            this.btnClose.TabIndex = 15;
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // errorProvider1
-            // 
-            this.errorProvider1.ContainerControl = this;
+            this.ctrlPersonCardWithFilter1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ctrlPersonCardWithFilter1.Location = new System.Drawing.Point(35, 41);
+            this.ctrlPersonCardWithFilter1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.ctrlPersonCardWithFilter1.Name = "ctrlPersonCardWithFilter1";
+            this.ctrlPersonCardWithFilter1.Size = new System.Drawing.Size(817, 361);
+            this.ctrlPersonCardWithFilter1.TabIndex = 0;
+            this.ctrlPersonCardWithFilter1.onFindClick += new System.Action<int>(this.ctrlPersonCardWithFilter1_onFindClick);
+            this.ctrlPersonCardWithFilter1.Load += new System.EventHandler(this.ctrlPersonCardWithFilter1_Load);
             // 
             // frmAdd_UpdateUser
             // 
@@ -318,11 +318,11 @@
             this.tpPersonalInfo.ResumeLayout(false);
             this.tpLoginInfo.ResumeLayout(false);
             this.tpLoginInfo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbNationalNo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbName)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

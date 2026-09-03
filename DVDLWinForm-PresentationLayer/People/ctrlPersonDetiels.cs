@@ -58,7 +58,7 @@ namespace DVDLWinForm_PresentationLayer.People
             lblEmail.Text = _person.Email;
             lblPhone.Text = _person.Phone;
             lblAddress.Text = _person.Address;
-            lblDateOfBirht.Text = _person.DateOfBirth.ToString();
+            lblDateOfBirht.Text = _person.DateOfBirth.ToString("dd/MMM/yyyy");
             if (_person.ImagePath != "")
             {
                 // نفتح الصورة بأمان
@@ -130,6 +130,11 @@ namespace DVDLWinForm_PresentationLayer.People
         }
 
         private void lblPersonID_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void grbPersonInformation_Enter(object sender, EventArgs e)
         {
 
         }

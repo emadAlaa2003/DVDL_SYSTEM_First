@@ -123,6 +123,7 @@ namespace DVDLWinForm_PresentationLayer.People
 
         public void UpadetMode(int PersonID)
         {
+
             grbFilter.Enabled = false;
             ctrlPersonDetiels1.LoadPersonInfo(PersonID);
         }

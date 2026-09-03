@@ -109,6 +109,7 @@
             this.grbPersonInformation.TabIndex = 0;
             this.grbPersonInformation.TabStop = false;
             this.grbPersonInformation.Text = "Person Information";
+            this.grbPersonInformation.Enter += new System.EventHandler(this.grbPersonInformation_Enter);
             // 
             // lblPersonID
             // 
