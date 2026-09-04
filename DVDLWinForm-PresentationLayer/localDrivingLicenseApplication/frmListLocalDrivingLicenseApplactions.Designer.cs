@@ -40,22 +40,11 @@
             this.PassedTestCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.showApplicationDetielsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.editApplicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.TSMDelete = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.TSMICancel = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
-            this.TSMIsecdul = new System.Windows.Forms.ToolStripMenuItem();
-            this.TSMIvision = new System.Windows.Forms.ToolStripMenuItem();
-            this.TSMIwritten = new System.Windows.Forms.ToolStripMenuItem();
-            this.TSMIpractical = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
-            this.TSMIissueDrivingLicenseFirstTime = new System.Windows.Forms.ToolStripMenuItem();
-            this.TSMIshowLicense = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
-            this.TSMIshowPersonLicenseHistory = new System.Windows.Forms.ToolStripMenuItem();
             this.lblNumberOfRecord = new System.Windows.Forms.Label();
             this.lblRecodTitel = new System.Windows.Forms.Label();
             this.lblFilter = new System.Windows.Forms.Label();
@@ -66,6 +55,17 @@
             this.btnAddNewLdlApp = new System.Windows.Forms.Button();
             this.ptbLdlApp = new System.Windows.Forms.PictureBox();
             this.btnClose = new System.Windows.Forms.Button();
+            this.showApplicationDetielsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editApplicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMDelete = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMICancel = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMIsecdul = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMIvision = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMIwritten = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMIpractical = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMIissueDrivingLicenseFirstTime = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMIshowLicense = new System.Windows.Forms.ToolStripMenuItem();
+            this.TSMIshowPersonLicenseHistory = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbLdlApp)).BeginInit();
@@ -175,132 +175,33 @@
             this.toolStripMenuItem5,
             this.TSMIshowPersonLicenseHistory});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(282, 232);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(282, 210);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
-            // 
-            // showApplicationDetielsToolStripMenuItem
-            // 
-            this.showApplicationDetielsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showApplicationDetielsToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.PersonDetails_323;
-            this.showApplicationDetielsToolStripMenuItem.Name = "showApplicationDetielsToolStripMenuItem";
-            this.showApplicationDetielsToolStripMenuItem.Size = new System.Drawing.Size(281, 22);
-            this.showApplicationDetielsToolStripMenuItem.Text = "Show Application Detiels";
-            this.showApplicationDetielsToolStripMenuItem.Click += new System.EventHandler(this.showApplicationDetielsToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(278, 6);
             // 
-            // editApplicationToolStripMenuItem
-            // 
-            this.editApplicationToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.editApplicationToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.edit_323;
-            this.editApplicationToolStripMenuItem.Name = "editApplicationToolStripMenuItem";
-            this.editApplicationToolStripMenuItem.Size = new System.Drawing.Size(281, 22);
-            this.editApplicationToolStripMenuItem.Text = "Edit Application";
-            this.editApplicationToolStripMenuItem.Click += new System.EventHandler(this.editApplicationToolStripMenuItem_Click);
-            // 
-            // TSMDelete
-            // 
-            this.TSMDelete.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TSMDelete.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Delete_32_21;
-            this.TSMDelete.Name = "TSMDelete";
-            this.TSMDelete.Size = new System.Drawing.Size(281, 22);
-            this.TSMDelete.Text = "Delete Application";
-            this.TSMDelete.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
-            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(278, 6);
-            // 
-            // TSMICancel
-            // 
-            this.TSMICancel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TSMICancel.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Close_641;
-            this.TSMICancel.Name = "TSMICancel";
-            this.TSMICancel.Size = new System.Drawing.Size(281, 22);
-            this.TSMICancel.Text = "Cancel Application";
-            this.TSMICancel.Click += new System.EventHandler(this.cancelApplicationToolStripMenuItem_Click);
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.Size = new System.Drawing.Size(278, 6);
             // 
-            // TSMIsecdul
-            // 
-            this.TSMIsecdul.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TSMIvision,
-            this.TSMIwritten,
-            this.TSMIpractical});
-            this.TSMIsecdul.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TSMIsecdul.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Schedule_Test_32;
-            this.TSMIsecdul.Name = "TSMIsecdul";
-            this.TSMIsecdul.Size = new System.Drawing.Size(281, 22);
-            this.TSMIsecdul.Text = "Sechdule Tests";
-            // 
-            // TSMIvision
-            // 
-            this.TSMIvision.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Vision_Test_32;
-            this.TSMIvision.Name = "TSMIvision";
-            this.TSMIvision.Size = new System.Drawing.Size(211, 22);
-            this.TSMIvision.Text = "Schedule Vision Test";
-            this.TSMIvision.Click += new System.EventHandler(this.visionTestToolStripMenuItem_Click);
-            // 
-            // TSMIwritten
-            // 
-            this.TSMIwritten.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Written_Test_32_Sechdule;
-            this.TSMIwritten.Name = "TSMIwritten";
-            this.TSMIwritten.Size = new System.Drawing.Size(211, 22);
-            this.TSMIwritten.Text = "Schedule Written Test";
-            this.TSMIwritten.Click += new System.EventHandler(this.writtenTestToolStripMenuItem_Click);
-            // 
-            // TSMIpractical
-            // 
-            this.TSMIpractical.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Street_Test_32;
-            this.TSMIpractical.Name = "TSMIpractical";
-            this.TSMIpractical.Size = new System.Drawing.Size(211, 22);
-            this.TSMIpractical.Text = "Schedule Street Test";
-            this.TSMIpractical.Click += new System.EventHandler(this.TSMIpractical_Click);
-            // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(278, 6);
             // 
-            // TSMIissueDrivingLicenseFirstTime
-            // 
-            this.TSMIissueDrivingLicenseFirstTime.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TSMIissueDrivingLicenseFirstTime.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.IssueDrivingLicense_32;
-            this.TSMIissueDrivingLicenseFirstTime.Name = "TSMIissueDrivingLicenseFirstTime";
-            this.TSMIissueDrivingLicenseFirstTime.Size = new System.Drawing.Size(281, 22);
-            this.TSMIissueDrivingLicenseFirstTime.Text = "Issue Driving License (First Time)";
-            this.TSMIissueDrivingLicenseFirstTime.Click += new System.EventHandler(this.TSMIissueDrivingLicenseFirstTime_Click);
-            // 
-            // TSMIshowLicense
-            // 
-            this.TSMIshowLicense.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TSMIshowLicense.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.License_View_322;
-            this.TSMIshowLicense.Name = "TSMIshowLicense";
-            this.TSMIshowLicense.Size = new System.Drawing.Size(281, 22);
-            this.TSMIshowLicense.Text = "Show License";
-            this.TSMIshowLicense.Click += new System.EventHandler(this.TSMIshowLicense_Click);
-            // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             this.toolStripMenuItem5.Size = new System.Drawing.Size(278, 6);
-            // 
-            // TSMIshowPersonLicenseHistory
-            // 
-            this.TSMIshowPersonLicenseHistory.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TSMIshowPersonLicenseHistory.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.PersonLicenseHistory_32;
-            this.TSMIshowPersonLicenseHistory.Name = "TSMIshowPersonLicenseHistory";
-            this.TSMIshowPersonLicenseHistory.Size = new System.Drawing.Size(281, 22);
-            this.TSMIshowPersonLicenseHistory.Text = "Show Person License History";
-            this.TSMIshowPersonLicenseHistory.Click += new System.EventHandler(this.TSMIshowPersonLicenseHistory_Click);
             // 
             // lblNumberOfRecord
             // 
@@ -383,7 +284,7 @@
             "New",
             "Cancelled",
             "Completed"});
-            this.cmbStatus.Location = new System.Drawing.Point(257, 207);
+            this.cmbStatus.Location = new System.Drawing.Point(257, 208);
             this.cmbStatus.Name = "cmbStatus";
             this.cmbStatus.Size = new System.Drawing.Size(154, 21);
             this.cmbStatus.TabIndex = 28;
@@ -423,6 +324,105 @@
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // showApplicationDetielsToolStripMenuItem
+            // 
+            this.showApplicationDetielsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showApplicationDetielsToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.PersonDetails_323;
+            this.showApplicationDetielsToolStripMenuItem.Name = "showApplicationDetielsToolStripMenuItem";
+            this.showApplicationDetielsToolStripMenuItem.Size = new System.Drawing.Size(281, 22);
+            this.showApplicationDetielsToolStripMenuItem.Text = "Show Application Detiels";
+            this.showApplicationDetielsToolStripMenuItem.Click += new System.EventHandler(this.showApplicationDetielsToolStripMenuItem_Click);
+            // 
+            // editApplicationToolStripMenuItem
+            // 
+            this.editApplicationToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.editApplicationToolStripMenuItem.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.edit_323;
+            this.editApplicationToolStripMenuItem.Name = "editApplicationToolStripMenuItem";
+            this.editApplicationToolStripMenuItem.Size = new System.Drawing.Size(281, 22);
+            this.editApplicationToolStripMenuItem.Text = "Edit Application";
+            this.editApplicationToolStripMenuItem.Click += new System.EventHandler(this.editApplicationToolStripMenuItem_Click);
+            // 
+            // TSMDelete
+            // 
+            this.TSMDelete.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TSMDelete.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Delete_32_21;
+            this.TSMDelete.Name = "TSMDelete";
+            this.TSMDelete.Size = new System.Drawing.Size(281, 22);
+            this.TSMDelete.Text = "Delete Application";
+            this.TSMDelete.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
+            // TSMICancel
+            // 
+            this.TSMICancel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TSMICancel.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Close_641;
+            this.TSMICancel.Name = "TSMICancel";
+            this.TSMICancel.Size = new System.Drawing.Size(281, 22);
+            this.TSMICancel.Text = "Cancel Application";
+            this.TSMICancel.Click += new System.EventHandler(this.cancelApplicationToolStripMenuItem_Click);
+            // 
+            // TSMIsecdul
+            // 
+            this.TSMIsecdul.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TSMIvision,
+            this.TSMIwritten,
+            this.TSMIpractical});
+            this.TSMIsecdul.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TSMIsecdul.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Schedule_Test_32;
+            this.TSMIsecdul.Name = "TSMIsecdul";
+            this.TSMIsecdul.Size = new System.Drawing.Size(281, 22);
+            this.TSMIsecdul.Text = "Sechdule Tests";
+            // 
+            // TSMIvision
+            // 
+            this.TSMIvision.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Vision_Test_32;
+            this.TSMIvision.Name = "TSMIvision";
+            this.TSMIvision.Size = new System.Drawing.Size(211, 22);
+            this.TSMIvision.Text = "Schedule Vision Test";
+            this.TSMIvision.Click += new System.EventHandler(this.visionTestToolStripMenuItem_Click);
+            // 
+            // TSMIwritten
+            // 
+            this.TSMIwritten.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Written_Test_32_Sechdule;
+            this.TSMIwritten.Name = "TSMIwritten";
+            this.TSMIwritten.Size = new System.Drawing.Size(211, 22);
+            this.TSMIwritten.Text = "Schedule Written Test";
+            this.TSMIwritten.Click += new System.EventHandler(this.writtenTestToolStripMenuItem_Click);
+            // 
+            // TSMIpractical
+            // 
+            this.TSMIpractical.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Street_Test_32;
+            this.TSMIpractical.Name = "TSMIpractical";
+            this.TSMIpractical.Size = new System.Drawing.Size(211, 22);
+            this.TSMIpractical.Text = "Schedule Street Test";
+            this.TSMIpractical.Click += new System.EventHandler(this.TSMIpractical_Click);
+            // 
+            // TSMIissueDrivingLicenseFirstTime
+            // 
+            this.TSMIissueDrivingLicenseFirstTime.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TSMIissueDrivingLicenseFirstTime.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.IssueDrivingLicense_32;
+            this.TSMIissueDrivingLicenseFirstTime.Name = "TSMIissueDrivingLicenseFirstTime";
+            this.TSMIissueDrivingLicenseFirstTime.Size = new System.Drawing.Size(281, 22);
+            this.TSMIissueDrivingLicenseFirstTime.Text = "Issue Driving License (First Time)";
+            this.TSMIissueDrivingLicenseFirstTime.Click += new System.EventHandler(this.TSMIissueDrivingLicenseFirstTime_Click);
+            // 
+            // TSMIshowLicense
+            // 
+            this.TSMIshowLicense.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TSMIshowLicense.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.License_View_322;
+            this.TSMIshowLicense.Name = "TSMIshowLicense";
+            this.TSMIshowLicense.Size = new System.Drawing.Size(281, 22);
+            this.TSMIshowLicense.Text = "Show License";
+            this.TSMIshowLicense.Click += new System.EventHandler(this.TSMIshowLicense_Click);
+            // 
+            // TSMIshowPersonLicenseHistory
+            // 
+            this.TSMIshowPersonLicenseHistory.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TSMIshowPersonLicenseHistory.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.PersonLicenseHistory_32;
+            this.TSMIshowPersonLicenseHistory.Name = "TSMIshowPersonLicenseHistory";
+            this.TSMIshowPersonLicenseHistory.Size = new System.Drawing.Size(281, 22);
+            this.TSMIshowPersonLicenseHistory.Text = "Show Person License History";
+            this.TSMIshowPersonLicenseHistory.Click += new System.EventHandler(this.TSMIshowPersonLicenseHistory_Click);
             // 
             // frmListLocalDrivingLicenseApplactions
             // 

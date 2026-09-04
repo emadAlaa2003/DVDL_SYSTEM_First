@@ -108,7 +108,9 @@ namespace DVLDDataAccessLayer
                     ApplicationID = insertedID;
                 }
             }
-            catch (Exception ex) { }
+            catch (Exception ex) {
+                Console.WriteLine("Error: " + ex.Message);
+            }
             finally
             {
                 connection.Close();

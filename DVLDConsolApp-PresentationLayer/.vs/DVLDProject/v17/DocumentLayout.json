@@ -1,7 +1,17 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDConsolApp-PresentationLayer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\licence\\ctrllicenceslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\licence\\ctrllicenceslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\licence\\frmlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +19,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +36,41 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ctrlLicencesList.cs",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T18:50:13.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ctrlLicencesList.cs [Design]",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs [Design]",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T18:47:05.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmLicenseHistory.cs [Design]",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs [Design]",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T18:46:44.948Z"
             }
           ]
         }

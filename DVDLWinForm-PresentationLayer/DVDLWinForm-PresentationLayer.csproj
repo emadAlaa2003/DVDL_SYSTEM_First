@@ -66,6 +66,36 @@
     <Compile Include="Drivers\frmListDrivers.Designer.cs">
       <DependentUpon>frmListDrivers.cs</DependentUpon>
     </Compile>
+    <Compile Include="InternationalLicenses\ctrlIenternationalAppDetiels.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InternationalLicenses\ctrlIenternationalAppDetiels.Designer.cs">
+      <DependentUpon>ctrlIenternationalAppDetiels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalLicenses\ctrlInternationalLicensesInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InternationalLicenses\ctrlInternationalLicensesInfo.Designer.cs">
+      <DependentUpon>ctrlInternationalLicensesInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalLicenses\frmInterntionalLicesesApplictions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InternationalLicenses\frmInterntionalLicesesApplictions.Designer.cs">
+      <DependentUpon>frmInterntionalLicesesApplictions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalLicenses\frmNewInterationalLicenseApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InternationalLicenses\frmNewInterationalLicenseApplication.Designer.cs">
+      <DependentUpon>frmNewInterationalLicenseApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalLicenses\InternationalLicenseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InternationalLicenses\InternationalLicenseInfo.Designer.cs">
+      <DependentUpon>InternationalLicenseInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="licence\ctrlLicencesList.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -245,6 +275,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Drivers\frmListDrivers.resx">
       <DependentUpon>frmListDrivers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InternationalLicenses\ctrlIenternationalAppDetiels.resx">
+      <DependentUpon>ctrlIenternationalAppDetiels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InternationalLicenses\ctrlInternationalLicensesInfo.resx">
+      <DependentUpon>ctrlInternationalLicensesInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InternationalLicenses\frmInterntionalLicesesApplictions.resx">
+      <DependentUpon>frmInterntionalLicesesApplictions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InternationalLicenses\frmNewInterationalLicenseApplication.resx">
+      <DependentUpon>frmNewInterationalLicenseApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InternationalLicenses\InternationalLicenseInfo.resx">
+      <DependentUpon>InternationalLicenseInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="licence\ctrlLicencesList.resx">
       <DependentUpon>ctrlLicencesList.cs</DependentUpon>
@@ -721,6 +766,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\PersonLicenseHistory 321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\International 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\License View 324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Local 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\International 321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\International 322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LicenseView 400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\International 323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PersonDetails 324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\License View 325.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PersonLicenseHistory 322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\International 324.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

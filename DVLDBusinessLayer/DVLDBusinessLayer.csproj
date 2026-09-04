@@ -48,6 +48,7 @@
     <Compile Include="cls LocalDrivingLicenseApplication.cs" />
     <Compile Include="clsApplactionType.cs" />
     <Compile Include="clsApplication.cs" />
+    <Compile Include="clsInternationalLicense.cs" />
     <Compile Include="clsLicense.cs" />
     <Compile Include="clsLicenseClasses.cs" />
     <Compile Include="clsTestType.cs" />

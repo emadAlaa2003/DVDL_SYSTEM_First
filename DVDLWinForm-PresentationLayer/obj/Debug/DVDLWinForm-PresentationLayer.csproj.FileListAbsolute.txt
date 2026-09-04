@@ -70,3 +70,8 @@ E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLay
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.licence.ctrlLicencesList.resources
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.licence.frmLicenseHistory.resources
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.Drivers.frmListDrivers.resources
+E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.InternationalLicenses.ctrlIenternationalAppDetiels.resources
+E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.InternationalLicenses.frmNewInterationalLicenseApplication.resources
+E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.InternationalLicenses.ctrlInternationalLicensesInfo.resources
+E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.InternationalLicenses.frmInternationalLicenseInfo.resources
+E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.InternationalLicenses.frmInterntionalLicesesApplictions.resources

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DVDLWinForm_PresentationLayer.Applications;
 using DVDLWinForm_PresentationLayer.Drivers;
+using DVDLWinForm_PresentationLayer.InternationalLicenses;
 using DVDLWinForm_PresentationLayer.localDrivingLicenseApplication;
 using DVDLWinForm_PresentationLayer.Login;
 using DVDLWinForm_PresentationLayer.People;
@@ -81,12 +82,7 @@ namespace DVDLWinForm_PresentationLayer
             frm.ShowDialog();
         }
 
-        private void newDrivingLicensesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-        
-            frmAddEditeLocalDrivingApp frm = new frmAddEditeLocalDrivingApp(-1);
-            frm.ShowDialog();
-        }
+     
 
         private void localDrivingLiceneseApplicationToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -97,6 +93,24 @@ namespace DVDLWinForm_PresentationLayer
         private void TmsiDrivers_Click(object sender, EventArgs e)
         {
             frmListDrivers frm = new frmListDrivers();
+            frm.ShowDialog();
+        }
+
+        private void localLicensesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAddEditeLocalDrivingApp frm = new frmAddEditeLocalDrivingApp(-1);
+            frm.ShowDialog();
+        }
+
+        private void internationalLicensesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNewInterationalLicenseApplication frm = new frmNewInterationalLicenseApplication();
+            frm.ShowDialog();
+        }
+
+        private void interntionalLicensesApplictonsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInterntionalLicesesApplictions frm = new frmInterntionalLicesesApplictions();
             frm.ShowDialog();
         }
     }

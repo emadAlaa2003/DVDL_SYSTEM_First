@@ -45,6 +45,7 @@
     <Compile Include="clsDataApplactionTypes.cs" />
     <Compile Include="clsDataAccessSettings.cs" />
     <Compile Include="clsDataApplications.cs" />
+    <Compile Include="clsDataInternationalLicenses.cs" />
     <Compile Include="clsDataLicenses.cs" />
     <Compile Include="clsDataLocalDrivingApplication.cs" />
     <Compile Include="clsDataTestAppointmont t.cs" />

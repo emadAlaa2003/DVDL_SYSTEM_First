@@ -765,6 +765,33 @@ namespace DVLDConsolApp_PresentationLayer
                 Console.WriteLine(row["LicenseID"].ToString() + " - " + row["ApplicationID"].ToString() + " - " + row["IssueReason"].ToString());
             }
         }
+
+        static void TestInterLicenFindById(int Appl)
+        {
+            clsInternationalLicense person = clsInternationalLicense.Find(Appl);
+            if (person == null)
+            {
+                Console.WriteLine("Test not fond");
+            }
+            else
+            {
+                Console.WriteLine("Test  fond");
+            }
+        }
+
+        static void TestGetAllLice()
+        {
+            DataTable dataTable = clsInternationalLicense.GetAllInternationalLicenses();
+
+            Console.WriteLine("Appointmonts  Data:");
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                //Console.WriteLine(row["LocalDrivingLicenseApplicationID"].ToString() + " - " + row["applicationId"].ToString() + " - " + row["LicenseClassID"].ToString() + " - " + row["LicenseClassID"].ToString() + row["ApplicationDate"].ToString() + " - " + row["ApplicationTypeID"].ToString()
+                //    + " - " + row["ApplicationStatus"].ToString() + " - " + row["LastStatusDate"].ToString() + " - " + row["PaidFees"].ToString() + " - " + row["CreatedByUserID"].ToString());
+                Console.WriteLine(row["InternationalLicenseID"].ToString() + " - " + row["ApplicationID"].ToString() + " - " + row["CreatedByUserID"].ToString());
+            }
+        }
         static void Main(string[] args)
         {
             //TestFindById(1);
@@ -818,8 +845,11 @@ namespace DVLDConsolApp_PresentationLayer
             //TestFindDriver();
             //TestGetAllDrivers();
             //TestFindLicennes();
-            TestGetAlllicensses();
-         Console.ReadKey();
+            //TestGetAlllicensses();
+            ////TestInterLicenFindById(12);
+            TestGetAllLice();
+
+            Console.ReadKey();
         }
     }
 }

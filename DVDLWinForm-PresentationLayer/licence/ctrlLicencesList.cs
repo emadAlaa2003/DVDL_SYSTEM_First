@@ -27,8 +27,12 @@ namespace DVDLWinForm_PresentationLayer.licence
             {
                 dgvLocalLicences.DataSource = dt;
                 lblNumberOfRecord.Text = dt.Rows.Count.ToString();
-                dgvLocalLicences.Columns["IssueDate"].DefaultCellStyle.Format = "dd/MMM/yyyy";
-                dgvLocalLicences.Columns["ExpirationDate"].DefaultCellStyle.Format = "dd/MMM/yyyy";
+
+                if (dgvLocalLicences.Columns.Contains("IssueDate"))
+                {
+                    dgvLocalLicences.Columns["IssueDate"].DefaultCellStyle.Format = "dd/MMM/yyyy";
+                    dgvLocalLicences.Columns["ExpirationDate"].DefaultCellStyle.Format = "dd/MMM/yyyy";
+                }
             }
             else
             {
@@ -36,12 +40,33 @@ namespace DVDLWinForm_PresentationLayer.licence
             }
         }
 
+        private void _RefreeshIntLicenseList()
+        {
+            DataTable dt = DVLDBusinessLayer.clsInternationalLicense.GetAllInternationalLicensesByPersonId(_personId);
+
+            if (dt != null)
+            {
+                dataGridView1.DataSource = dt;
+                lblNumberOfIntRecord.Text = dt.Rows.Count.ToString();
+
+                if (dataGridView1.Columns.Contains("IssueDate"))
+                {
+                    dataGridView1.Columns["IssueDate"].DefaultCellStyle.Format = "dd/MMM/yyyy";
+                    dataGridView1.Columns["ExpirationDate"].DefaultCellStyle.Format = "dd/MMM/yyyy";
+                }
+            }
+            else
+            {
+                lblNumberOfIntRecord.Text = "0";
+            }
+        }
         public void LoadInfo(int PersonID)
         {
             _personId = PersonID;
             if (_personId < 0) return;
 
             _RefreshLicensesList();
+            _RefreeshIntLicenseList();
         }
 
         private void showLicenseToolStripMenuItem_Click(object sender, EventArgs e)

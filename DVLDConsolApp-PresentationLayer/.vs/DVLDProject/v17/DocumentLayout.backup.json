@@ -3,28 +3,13 @@
   "WorkspaceRootPath": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDConsolApp-PresentationLayer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\drivers\\frmlistdrivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\licence\\ctrllicenceslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\localdrivinglicenseapplication\\frmlistlocaldrivinglicenseapplactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\localdrivinglicenseapplication\\frmlistlocaldrivinglicenseapplactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\minform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\licence\\frmlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\licence\\ctrllicenceslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\licence\\frmlicensehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\drivers\\frmlistdrivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\minform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +19,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,102 +39,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmLicenseHistory.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs",
-              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs",
-              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAqwB8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ctrlLicencesList.cs",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T19:33:29.684Z",
+              "WhenOpened": "2026-09-04T18:50:13.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "ctrlLicencesList.cs [Design]",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs [Design]",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\licence\\ctrlLicencesList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T18:47:05.935Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmLicenseHistory.cs [Design]",
               "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs",
               "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs",
               "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs [Design]",
               "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\licence\\frmLicenseHistory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T19:33:27.152Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MinForm.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\MinForm.cs",
-              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\MinForm.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\MinForm.cs",
-              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\MinForm.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAEwGMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T19:25:11.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MinForm.cs [Design]",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\MinForm.cs",
-              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\MinForm.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\MinForm.cs [Design]",
-              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\MinForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T19:25:09.632Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmListLocalDrivingLicenseApplactions.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\localDrivingLicenseApplication\\frmListLocalDrivingLicenseApplactions.cs",
-              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\localDrivingLicenseApplication\\frmListLocalDrivingLicenseApplactions.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\localDrivingLicenseApplication\\frmListLocalDrivingLicenseApplactions.cs",
-              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\localDrivingLicenseApplication\\frmListLocalDrivingLicenseApplactions.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAewDMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T19:24:02.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmListLocalDrivingLicenseApplactions.cs [Design]",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\localDrivingLicenseApplication\\frmListLocalDrivingLicenseApplactions.cs",
-              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\localDrivingLicenseApplication\\frmListLocalDrivingLicenseApplactions.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\localDrivingLicenseApplication\\frmListLocalDrivingLicenseApplactions.cs [Design]",
-              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\localDrivingLicenseApplication\\frmListLocalDrivingLicenseApplactions.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T19:23:55.467Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmListDrivers.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Drivers\\frmListDrivers.cs",
-              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\Drivers\\frmListDrivers.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Drivers\\frmListDrivers.cs",
-              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\Drivers\\frmListDrivers.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAawGgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T19:03:36.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmListDrivers.cs [Design]",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Drivers\\frmListDrivers.cs",
-              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\Drivers\\frmListDrivers.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\Drivers\\frmListDrivers.cs [Design]",
-              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\Drivers\\frmListDrivers.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T18:59:33.346Z",
+              "WhenOpened": "2026-09-04T18:46:44.948Z",
               "EditorCaption": " [Design]"
             }
           ]

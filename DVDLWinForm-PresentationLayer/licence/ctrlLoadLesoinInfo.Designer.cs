@@ -160,9 +160,9 @@
             this.lblClassType.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClassType.Location = new System.Drawing.Point(168, 30);
             this.lblClassType.Name = "lblClassType";
-            this.lblClassType.Size = new System.Drawing.Size(53, 16);
+            this.lblClassType.Size = new System.Drawing.Size(47, 16);
             this.lblClassType.TabIndex = 47;
-            this.lblClassType.Text = "Class  :";
+            this.lblClassType.Text = "[????]";
             // 
             // lblName
             // 
@@ -170,9 +170,9 @@
             this.lblName.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblName.Location = new System.Drawing.Point(168, 73);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(53, 16);
+            this.lblName.Size = new System.Drawing.Size(47, 16);
             this.lblName.TabIndex = 48;
-            this.lblName.Text = "Class  :";
+            this.lblName.Text = "[????]";
             // 
             // lblLicenseId
             // 
@@ -182,9 +182,9 @@
             this.lblLicenseId.ImageKey = "(none)";
             this.lblLicenseId.Location = new System.Drawing.Point(168, 106);
             this.lblLicenseId.Name = "lblLicenseId";
-            this.lblLicenseId.Size = new System.Drawing.Size(74, 16);
+            this.lblLicenseId.Size = new System.Drawing.Size(47, 16);
             this.lblLicenseId.TabIndex = 49;
-            this.lblLicenseId.Text = "license ID:";
+            this.lblLicenseId.Text = "[????]";
             // 
             // lblNationalNo
             // 
@@ -192,9 +192,9 @@
             this.lblNationalNo.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNationalNo.Location = new System.Drawing.Point(168, 137);
             this.lblNationalNo.Name = "lblNationalNo";
-            this.lblNationalNo.Size = new System.Drawing.Size(88, 16);
+            this.lblNationalNo.Size = new System.Drawing.Size(47, 16);
             this.lblNationalNo.TabIndex = 50;
-            this.lblNationalNo.Text = "National No :";
+            this.lblNationalNo.Text = "[????]";
             // 
             // lblGender
             // 
@@ -202,9 +202,9 @@
             this.lblGender.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGender.Location = new System.Drawing.Point(168, 174);
             this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(62, 16);
+            this.lblGender.Size = new System.Drawing.Size(47, 16);
             this.lblGender.TabIndex = 51;
-            this.lblGender.Text = "Gendor :";
+            this.lblGender.Text = "[????]";
             // 
             // lblIssueDate
             // 
@@ -212,9 +212,9 @@
             this.lblIssueDate.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIssueDate.Location = new System.Drawing.Point(168, 213);
             this.lblIssueDate.Name = "lblIssueDate";
-            this.lblIssueDate.Size = new System.Drawing.Size(82, 16);
+            this.lblIssueDate.Size = new System.Drawing.Size(47, 16);
             this.lblIssueDate.TabIndex = 52;
-            this.lblIssueDate.Text = "Issue Date:";
+            this.lblIssueDate.Text = "[????]";
             // 
             // lblNote
             // 
@@ -222,9 +222,9 @@
             this.lblNote.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNote.Location = new System.Drawing.Point(168, 243);
             this.lblNote.Name = "lblNote";
-            this.lblNote.Size = new System.Drawing.Size(42, 16);
+            this.lblNote.Size = new System.Drawing.Size(47, 16);
             this.lblNote.TabIndex = 53;
-            this.lblNote.Text = "Note:";
+            this.lblNote.Text = "[????]";
             // 
             // lblIsActiveTite
             // 
@@ -232,7 +232,7 @@
             this.lblIsActiveTite.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIsActiveTite.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lblIsActiveTite.ImageKey = "(none)";
-            this.lblIsActiveTite.Location = new System.Drawing.Point(299, 106);
+            this.lblIsActiveTite.Location = new System.Drawing.Point(318, 106);
             this.lblIsActiveTite.Name = "lblIsActiveTite";
             this.lblIsActiveTite.Size = new System.Drawing.Size(70, 16);
             this.lblIsActiveTite.TabIndex = 54;
@@ -242,7 +242,7 @@
             // 
             this.lblDateOfBirhtTitel.AutoSize = true;
             this.lblDateOfBirhtTitel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDateOfBirhtTitel.Location = new System.Drawing.Point(269, 137);
+            this.lblDateOfBirhtTitel.Location = new System.Drawing.Point(288, 137);
             this.lblDateOfBirhtTitel.Name = "lblDateOfBirhtTitel";
             this.lblDateOfBirhtTitel.Size = new System.Drawing.Size(100, 16);
             this.lblDateOfBirhtTitel.TabIndex = 56;
@@ -254,21 +254,21 @@
             this.lblIsActive.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIsActive.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lblIsActive.ImageKey = "(none)";
-            this.lblIsActive.Location = new System.Drawing.Point(404, 106);
+            this.lblIsActive.Location = new System.Drawing.Point(433, 106);
             this.lblIsActive.Name = "lblIsActive";
-            this.lblIsActive.Size = new System.Drawing.Size(70, 16);
+            this.lblIsActive.Size = new System.Drawing.Size(47, 16);
             this.lblIsActive.TabIndex = 58;
-            this.lblIsActive.Text = "Is Active:";
+            this.lblIsActive.Text = "[????]";
             // 
             // lblDateOfBirht
             // 
             this.lblDateOfBirht.AutoSize = true;
             this.lblDateOfBirht.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDateOfBirht.Location = new System.Drawing.Point(404, 137);
+            this.lblDateOfBirht.Location = new System.Drawing.Point(433, 137);
             this.lblDateOfBirht.Name = "lblDateOfBirht";
-            this.lblDateOfBirht.Size = new System.Drawing.Size(100, 16);
+            this.lblDateOfBirht.Size = new System.Drawing.Size(47, 16);
             this.lblDateOfBirht.TabIndex = 59;
-            this.lblDateOfBirht.Text = "Date Of Birht :";
+            this.lblDateOfBirht.Text = "[????]";
             // 
             // lblIsDelained
             // 
@@ -276,11 +276,11 @@
             this.lblIsDelained.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIsDelained.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lblIsDelained.ImageKey = "(none)";
-            this.lblIsDelained.Location = new System.Drawing.Point(404, 243);
+            this.lblIsDelained.Location = new System.Drawing.Point(433, 243);
             this.lblIsDelained.Name = "lblIsDelained";
-            this.lblIsDelained.Size = new System.Drawing.Size(70, 16);
+            this.lblIsDelained.Size = new System.Drawing.Size(47, 16);
             this.lblIsDelained.TabIndex = 60;
-            this.lblIsDelained.Text = "Driver ID:";
+            this.lblIsDelained.Text = "[????]";
             // 
             // lblDriverID
             // 
@@ -288,17 +288,17 @@
             this.lblDriverID.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDriverID.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lblDriverID.ImageKey = "(none)";
-            this.lblDriverID.Location = new System.Drawing.Point(404, 174);
+            this.lblDriverID.Location = new System.Drawing.Point(433, 174);
             this.lblDriverID.Name = "lblDriverID";
-            this.lblDriverID.Size = new System.Drawing.Size(70, 16);
+            this.lblDriverID.Size = new System.Drawing.Size(47, 16);
             this.lblDriverID.TabIndex = 62;
-            this.lblDriverID.Text = "Driver ID:";
+            this.lblDriverID.Text = "[????]";
             // 
             // lblExpDateTitel
             // 
             this.lblExpDateTitel.AutoSize = true;
             this.lblExpDateTitel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExpDateTitel.Location = new System.Drawing.Point(280, 213);
+            this.lblExpDateTitel.Location = new System.Drawing.Point(277, 207);
             this.lblExpDateTitel.Name = "lblExpDateTitel";
             this.lblExpDateTitel.Size = new System.Drawing.Size(111, 16);
             this.lblExpDateTitel.TabIndex = 63;
@@ -308,11 +308,11 @@
             // 
             this.lblExpDate.AutoSize = true;
             this.lblExpDate.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExpDate.Location = new System.Drawing.Point(423, 213);
+            this.lblExpDate.Location = new System.Drawing.Point(433, 213);
             this.lblExpDate.Name = "lblExpDate";
-            this.lblExpDate.Size = new System.Drawing.Size(111, 16);
+            this.lblExpDate.Size = new System.Drawing.Size(47, 16);
             this.lblExpDate.TabIndex = 66;
-            this.lblExpDate.Text = "Expiration Date:";
+            this.lblExpDate.Text = "[????]";
             // 
             // lblIsDidlineTitel
             // 
@@ -320,7 +320,7 @@
             this.lblIsDidlineTitel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIsDidlineTitel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lblIsDidlineTitel.ImageKey = "(none)";
-            this.lblIsDidlineTitel.Location = new System.Drawing.Point(280, 243);
+            this.lblIsDidlineTitel.Location = new System.Drawing.Point(301, 243);
             this.lblIsDidlineTitel.Name = "lblIsDidlineTitel";
             this.lblIsDidlineTitel.Size = new System.Drawing.Size(87, 16);
             this.lblIsDidlineTitel.TabIndex = 67;
@@ -332,7 +332,7 @@
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label4.ImageKey = "(none)";
-            this.label4.Location = new System.Drawing.Point(286, 171);
+            this.label4.Location = new System.Drawing.Point(318, 174);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 16);
             this.label4.TabIndex = 69;
@@ -341,7 +341,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Question_32;
-            this.pictureBox7.Location = new System.Drawing.Point(375, 237);
+            this.pictureBox7.Location = new System.Drawing.Point(394, 237);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(23, 22);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -361,7 +361,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Number_32;
-            this.pictureBox6.Location = new System.Drawing.Point(375, 168);
+            this.pictureBox6.Location = new System.Drawing.Point(394, 168);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(23, 22);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -371,7 +371,7 @@
             // ptbDateOfBirht
             // 
             this.ptbDateOfBirht.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Calendar_32;
-            this.ptbDateOfBirht.Location = new System.Drawing.Point(375, 131);
+            this.ptbDateOfBirht.Location = new System.Drawing.Point(394, 131);
             this.ptbDateOfBirht.Name = "ptbDateOfBirht";
             this.ptbDateOfBirht.Size = new System.Drawing.Size(23, 22);
             this.ptbDateOfBirht.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -381,7 +381,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Question_32;
-            this.pictureBox5.Location = new System.Drawing.Point(375, 100);
+            this.pictureBox5.Location = new System.Drawing.Point(394, 100);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(23, 22);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
