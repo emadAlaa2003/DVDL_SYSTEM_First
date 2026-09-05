@@ -65,6 +65,9 @@
             this.ptbName = new System.Windows.Forms.PictureBox();
             this.ptbAppClass = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.lblIssueResion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -78,6 +81,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ptbName)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbAppClass)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // lblAppliedForLiesconse
@@ -148,7 +152,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(18, 249);
+            this.label3.Location = new System.Drawing.Point(18, 278);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 16);
             this.label3.TabIndex = 45;
@@ -220,7 +224,7 @@
             // 
             this.lblNote.AutoSize = true;
             this.lblNote.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNote.Location = new System.Drawing.Point(168, 243);
+            this.lblNote.Location = new System.Drawing.Point(168, 272);
             this.lblNote.Name = "lblNote";
             this.lblNote.Size = new System.Drawing.Size(47, 16);
             this.lblNote.TabIndex = 53;
@@ -391,7 +395,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Notes_321;
-            this.pictureBox4.Location = new System.Drawing.Point(121, 243);
+            this.pictureBox4.Location = new System.Drawing.Point(121, 272);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(23, 22);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -468,11 +472,44 @@
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(18, 243);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(91, 16);
+            this.label5.TabIndex = 70;
+            this.label5.Text = "Issue Reson:";
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::DVDLWinForm_PresentationLayer.Properties.Resources.Notes_321;
+            this.pictureBox9.Location = new System.Drawing.Point(121, 241);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(23, 22);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 71;
+            this.pictureBox9.TabStop = false;
+            // 
+            // lblIssueResion
+            // 
+            this.lblIssueResion.AutoSize = true;
+            this.lblIssueResion.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIssueResion.Location = new System.Drawing.Point(168, 241);
+            this.lblIssueResion.Name = "lblIssueResion";
+            this.lblIssueResion.Size = new System.Drawing.Size(47, 16);
+            this.lblIssueResion.TabIndex = 72;
+            this.lblIssueResion.Text = "[????]";
+            // 
             // ctrlLoadLesoinInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Controls.Add(this.lblIssueResion);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.lblIsDidlineTitel);
@@ -526,6 +563,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ptbName)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbAppClass)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -570,5 +608,8 @@
         private System.Windows.Forms.Label lblIsDidlineTitel;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Label lblIssueResion;
     }
 }

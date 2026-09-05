@@ -108,6 +108,12 @@
     <Compile Include="licence\ctrlLoadLesoinInfo.Designer.cs">
       <DependentUpon>ctrlLoadLesoinInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="licence\ctrlRenewLicenseAppInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="licence\ctrlRenewLicenseAppInfo.Designer.cs">
+      <DependentUpon>ctrlRenewLicenseAppInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="licence\frmIssueDrivierLicenceForTheFirstTime.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,12 @@
     </Compile>
     <Compile Include="licence\frmLicenseHistory.Designer.cs">
       <DependentUpon>frmLicenseHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="licence\frmRenewLocalDrivingLicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="licence\frmRenewLocalDrivingLicense.Designer.cs">
+      <DependentUpon>frmRenewLocalDrivingLicense.cs</DependentUpon>
     </Compile>
     <Compile Include="localDrivingLicenseApplication\ctrlAppLocalDetiels.cs">
       <SubType>UserControl</SubType>
@@ -297,6 +309,9 @@
     <EmbeddedResource Include="licence\ctrlLoadLesoinInfo.resx">
       <DependentUpon>ctrlLoadLesoinInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="licence\ctrlRenewLicenseAppInfo.resx">
+      <DependentUpon>ctrlRenewLicenseAppInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="licence\frmIssueDrivierLicenceForTheFirstTime.resx">
       <DependentUpon>frmIssueDrivierLicenceForTheFirstTime.cs</DependentUpon>
     </EmbeddedResource>
@@ -305,6 +320,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="licence\frmLicenseHistory.resx">
       <DependentUpon>frmLicenseHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licence\frmRenewLocalDrivingLicense.resx">
+      <DependentUpon>frmRenewLocalDrivingLicense.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="localDrivingLicenseApplication\ctrlAppLocalDetiels.resx">
       <DependentUpon>ctrlAppLocalDetiels.cs</DependentUpon>
@@ -799,6 +817,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\International 324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Renew Driving License 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notes 322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Renew Driving License 321.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

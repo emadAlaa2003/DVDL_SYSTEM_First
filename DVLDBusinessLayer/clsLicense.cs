@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 using DVLDDataAccessLayer;
@@ -21,6 +22,9 @@ namespace DVLDBusinessLayer
         public bool IsActive { get; set; }
         public byte IssueReason { get; set; }
         public int CreatedByUserID { get; set; }
+        public enum enMode { AddNew = 0, Update = 1 };
+        enMode Mode = enMode.AddNew;
+
         public enum enIssueReason
         {
             FirstTime = 1, Renew = 2, ReplacementDamge = 3, ReplacementLost = 4
@@ -39,6 +43,7 @@ namespace DVLDBusinessLayer
             this.IsActive = true;
             this.IssueReason = 0;
             this.CreatedByUserID = 0;
+            Mode=enMode.AddNew;
         }
         public clsLicense(int licenseID, int applicationID, int driverID, int licenseClass, DateTime issueDate, DateTime expirationDate, string notes, decimal paidFees, bool isActive, byte issueReason, int createdByUserID)
         {
@@ -53,6 +58,7 @@ namespace DVLDBusinessLayer
             IsActive = isActive;
             IssueReason = issueReason;
             CreatedByUserID = createdByUserID;
+            Mode = enMode.Update;
         }
         public static clsLicense Find(int LicenseID)
         {
@@ -84,12 +90,29 @@ namespace DVLDBusinessLayer
                 this.IssueDate, this.ExpirationDate, this.Notes, this.PaidFees, this.IsActive, this.IssueReason, this.CreatedByUserID);
             return (this.LicenseID > -1);
         }
+        private bool _UpdateLicense()
+        {
+            return clsDataLicenses.UpdateLicense(this.LicenseID,this.ApplicationID, this.DriverID, this.LicenseClass,
+                this.IssueDate, this.ExpirationDate, this.Notes, this.PaidFees, this.IsActive, this.IssueReason, this.CreatedByUserID);
+        }
         public bool save()
         {
-            if (_AddNewLicense())
+            switch (Mode)
             {
-                return true;
+                case enMode.AddNew:
+                    {
+                        if (_AddNewLicense())
+                        {
+                            Mode = enMode.Update;
+                            return true;
+                        }
+                    }
+                    break;
+                case enMode.Update:
+                    return _UpdateLicense();
+                    break;
             }
+
             return false;
         }
         public static DataTable GetAllLicenses()

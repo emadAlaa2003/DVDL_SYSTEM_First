@@ -75,3 +75,5 @@ E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLay
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.InternationalLicenses.ctrlInternationalLicensesInfo.resources
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.InternationalLicenses.frmInternationalLicenseInfo.resources
 E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.InternationalLicenses.frmInterntionalLicesesApplictions.resources
+E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.licence.ctrlRenewLicenseAppInfo.resources
+E:\programming advices\c#\corse19\DVLD_Project_Final\DVDLWinForm-PresentationLayer\obj\Debug\DVDLWinForm_PresentationLayer.licence.frmRenewLocalDrivingLicense.resources

@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using DVDLWinForm_PresentationLayer.Applications;
 using DVDLWinForm_PresentationLayer.Drivers;
 using DVDLWinForm_PresentationLayer.InternationalLicenses;
+using DVDLWinForm_PresentationLayer.licence;
 using DVDLWinForm_PresentationLayer.localDrivingLicenseApplication;
 using DVDLWinForm_PresentationLayer.Login;
 using DVDLWinForm_PresentationLayer.People;
@@ -111,6 +112,12 @@ namespace DVDLWinForm_PresentationLayer
         private void interntionalLicensesApplictonsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmInterntionalLicesesApplictions frm = new frmInterntionalLicesesApplictions();
+            frm.ShowDialog();
+        }
+
+        private void renwDrivingLicensesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRenewLocalDrivingLicense frm=new frmRenewLocalDrivingLicense();
             frm.ShowDialog();
         }
     }

@@ -18,6 +18,31 @@ namespace DVDLWinForm_PresentationLayer.licence
         {
             InitializeComponent();
         }
+        private string _IssueResun(clsLicense.enIssueReason enResun)
+        {
+            switch (enResun) {
+                case clsLicense.enIssueReason.FirstTime:
+                    return "New License";
+                    break;
+                case clsLicense.enIssueReason.Renew:
+                    return "Renew License";
+                    break;
+
+                case clsLicense.enIssueReason.ReplacementDamge:
+                    return "Replacement Damge";
+                    break;
+
+                case clsLicense.enIssueReason.ReplacementLost:
+                    return "Replacement Lost";
+                    break;
+
+                default:
+                    return "Unknown";
+                    break;
+
+
+            }
+        }
         public void LoadLesoinInfo(int LicenseID)
 
         {
@@ -65,7 +90,7 @@ namespace DVDLWinForm_PresentationLayer.licence
             lblDateOfBirht.Text = person.DateOfBirth.ToString("dd/MMM/yyyy");
             lblDriverID.Text = license.DriverID.ToString();
             lblExpDate.Text = license.ExpirationDate.ToString("dd/MMM/yyyy");
-
+            lblIssueResion.Text = _IssueResun((clsLicense.enIssueReason)license.IssueReason);
             if (license.ExpirationDate > DateTime.Now)
             {
                 lblIsDelained.Text = "No";
