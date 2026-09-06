@@ -3,13 +3,22 @@
   "WorkspaceRootPath": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDConsolApp-PresentationLayer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A9DB478-DD4A-430C-A76A-C29F51FD721C}|..\\DVLDBusinessLayer\\DVLDBusinessLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvldbusinesslayer\\clslicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\licence\\frmreplacmentfordamgedlostlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBF6E1D4-B9A1-4D04-9A26-25AAAD777EDC}|..\\DVLDDataAccessLayer\\DVLDDataAccessLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvlddataaccesslayer\\clsdatalicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\licence\\frmreplacmentfordamgedlostlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A9DB478-DD4A-430C-A76A-C29F51FD721C}|..\\DVLDBusinessLayer\\DVLDBusinessLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvldbusinesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\licence\\frmrenewlocaldrivinglicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\licence\\frmrenewlocaldrivinglicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\minform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D99D610-99B9-4279-861C-D45CEC9E0F57}|..\\DVDLWinForm-PresentationLayer\\DVDLWinForm-PresentationLayer.csproj|e:\\programming advices\\c#\\corse19\\dvld_project_final\\dvdlwinform-presentationlayer\\minform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,40 +48,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "clsLicense.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDBusinessLayer\\clsLicense.cs",
-              "RelativeDocumentMoniker": "..\\DVLDBusinessLayer\\clsLicense.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDBusinessLayer\\clsLicense.cs",
-              "RelativeToolTip": "..\\DVLDBusinessLayer\\clsLicense.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAAAGcAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MinForm.cs",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\MinForm.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\MinForm.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\MinForm.cs",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\MinForm.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAD4v34AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T18:21:01.154Z",
+              "WhenOpened": "2026-09-05T19:45:35.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MinForm.cs [Design]",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\MinForm.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\MinForm.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\MinForm.cs [Design]",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\MinForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T19:44:25.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmReplacmentForDamgedLostLicense.cs",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmReplacmentForDamgedLostLicense.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\licence\\frmReplacmentForDamgedLostLicense.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmReplacmentForDamgedLostLicense.cs",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\licence\\frmReplacmentForDamgedLostLicense.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAIAwwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T19:20:25.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDBusinessLayer\\User.cs",
-              "RelativeDocumentMoniker": "..\\DVLDBusinessLayer\\User.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDBusinessLayer\\User.cs",
-              "RelativeToolTip": "..\\DVLDBusinessLayer\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "frmRenewLocalDrivingLicense.cs",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmRenewLocalDrivingLicense.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\licence\\frmRenewLocalDrivingLicense.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmRenewLocalDrivingLicense.cs",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\licence\\frmRenewLocalDrivingLicense.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T18:20:58.717Z"
+              "WhenOpened": "2026-09-05T19:20:22.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmRenewLocalDrivingLicense.cs [Design]",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmRenewLocalDrivingLicense.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\licence\\frmRenewLocalDrivingLicense.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmRenewLocalDrivingLicense.cs [Design]",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\licence\\frmRenewLocalDrivingLicense.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T19:11:24.596Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "clsDataLicenses.cs",
-              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\clsDataLicenses.cs",
-              "RelativeDocumentMoniker": "..\\DVLDDataAccessLayer\\clsDataLicenses.cs",
-              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVLDDataAccessLayer\\clsDataLicenses.cs",
-              "RelativeToolTip": "..\\DVLDDataAccessLayer\\clsDataLicenses.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAA9wLYAAAAAAAAAAAAAAA==",
+              "Title": "frmReplacmentForDamgedLostLicense.cs [Design]",
+              "DocumentMoniker": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmReplacmentForDamgedLostLicense.cs",
+              "RelativeDocumentMoniker": "..\\DVDLWinForm-PresentationLayer\\licence\\frmReplacmentForDamgedLostLicense.cs",
+              "ToolTip": "E:\\programming advices\\c#\\corse19\\DVLD_Project_Final\\DVDLWinForm-PresentationLayer\\licence\\frmReplacmentForDamgedLostLicense.cs [Design]",
+              "RelativeToolTip": "..\\DVDLWinForm-PresentationLayer\\licence\\frmReplacmentForDamgedLostLicense.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T18:14:29.168Z"
+              "WhenOpened": "2026-09-05T19:10:47.72Z"
             }
           ]
         }
